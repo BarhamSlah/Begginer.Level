@@ -57,17 +57,17 @@ int anotherValue = 10;
  byte bytevalue = (byte)floatValue ;
  System.out.println(bytevalue);
  
-short A = 20;
+short A = 20;   // bchwk bo gawra pewist ba casting nakat 
 long L = A;
  System.out.println(L);
 
  double A = 20d;
- int B = (int) A;
+ int B = (int) A;  // gawra bo bchwk pewist ba casting dakat
  System.out.println(B);
 
-short Z = (4/2);
- System.out.println(Z);
-int barham = 
+short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatype darnachet
+ System.out.println(Z); 
+
  
 }
 }
