@@ -1,4 +1,3 @@
-
 public class MyFirstProject {
 public static void main (String [] args){
 
@@ -67,6 +66,19 @@ long L = A;
 
 short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatype darnachet
  System.out.println(Z); 
+
+ double A = 2;
+ double B = 2.25;
+ double C = 2D;
+ double D = 2d;
+ System.out.println(" A = " + A);
+ System.out.println(" B = " + B);
+ System.out.println(" C = " + C);
+ System.out.println(" D = " + D);
+ 
+float A = 5;
+ float B = 5.25f;
+ float C = 5.25F;
 
  
 }
