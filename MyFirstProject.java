@@ -80,6 +80,10 @@ float A = 5;
  float B = 5.25f;
  float C = 5.25F;
 
+ double A = 5e4;
+ System.out.println( " A = " + A );
+
+ 
  
 }
 }
