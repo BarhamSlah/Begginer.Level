@@ -83,7 +83,25 @@ float A = 5;
  double A = 5e4;
  System.out.println( " A = " + A );
 
+double A = 4.00/2.00;
+double B = 4.00/2.0;
+double C = 4.0/2.0;
+double D = 4.00/2;
+double E = 4.0/2;
  
- 
+double A = 5.00;
+double A = 5.0;
+double B = 5D;
+double C = 5d;
+double D = 4.00/2;
+double E = 4d/2;
+
+float A = 3f;
+float E = 3.25f;
+float B = 3F;
+float C = 5f/3f;
+float D = 5/3f;
+
+
 }
 }
