@@ -1,9 +1,7 @@
 public class MyFirstProject {
 public static void main (String [] args){
 
-System.out.println(" Hello world ");
-
- System.out.println("barham"); 
+Systtem.out.println("barham"); 
 
  int myvalue = 5;
  System.out.println("myvalue");
@@ -12,6 +10,8 @@ System.out.println(" Hello world ");
 int myFirstNumber = 1;
  int mySecondNumber = 10;
  int myThirdNumber = 100;
+ System.out.println(" Hello world ");
+
  int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 System.out.println(myTotal);
 
@@ -101,7 +101,12 @@ float E = 3.25f;
 float B = 3F;
 float C = 5f/3f;
 float D = 5/3f;
+ 
+double numbersOfPound = 200d;
+ double numbersOfKilograms = numbersOfPound * 0.45; 
+Systyem.out.println( " numbersOfKilograms = " + numbersOfKilograms);
 
-
+ 
+ 
 }
 }
