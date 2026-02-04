@@ -126,7 +126,15 @@ char a = 'H';
  char c = '\u0068';
  char V = 0x0068;
 
+ String S = "Barham Slah";
+        S = S  + " is the best developer";
+        System.out.println(S);
+
  
+char firstChar = 'A' , secondChar =  'B' , thirdChar = '#';
+ System.out.println( firstChar + secondChar + thirdChar );  // lera away lanaw single quote bet la unicode raqam chand bet katek printy dakay awandat dadate  
+ System.out.println("" + firstChar + secondChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
+
  
 }
 }
