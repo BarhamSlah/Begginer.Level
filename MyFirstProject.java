@@ -106,7 +106,12 @@ double numbersOfPound = 200d;
  double numbersOfKilograms = numbersOfPound * 0.45; 
 Systyem.out.println( " numbersOfKilograms = " + numbersOfKilograms);
 
- 
+ short A = 10;
+ byte B = 20;
+ int C = 30;
+ int sumOfThree = (A + B + C);
+ long totalValue = 50_000 + (10 * sumOfThree);     // agadar ba 50_00 w 10 aw 2 zhmara sar ba longn loya datwany L bnwsy yan na ba dry xot
+ System.out.println( " totalValue = " + totalValue ) ;
  
 }
 }
