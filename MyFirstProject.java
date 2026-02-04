@@ -135,6 +135,32 @@ char firstChar = 'A' , secondChar =  'B' , thirdChar = '#';
  System.out.println( firstChar + secondChar + thirdChar );  // lera away lanaw single quote bet la unicode raqam chand bet katek printy dakay awandat dadate  
  System.out.println("" + firstChar + secondChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
 
+ int A = 1;
+ A ++;   // A--:
+ System.out.println(A);
+
+ int A = 1;
+ A +=1;  //A-=1;
+  System.out.println(A);
+
+ int E = 5;
+E *=4;
+ System.out.println(E);
+
+int A = 4;
+ A +=2.5;   // aw shewaya xoy automaticlly casting daka + double bakar bena chwnka amnjam dakata 6.5 ballam labar away (int)a boya 6 pshan dadat
+ System.out.println(A);    // lam shewaya wakw awa waya bnwsre A = (int) A + 2.5;
+
+ int B = 5;
+ B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
+ System.out.println(B);
+
+ 
+ 
+
+
+ 
+ 
  
 }
 }
