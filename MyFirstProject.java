@@ -112,6 +112,9 @@ Systyem.out.println( " numbersOfKilograms = " + numbersOfKilograms);
  int sumOfThree = (A + B + C);
  long totalValue = 50_000 + (10 * sumOfThree);     // agadar ba 50_00 w 10 aw 2 zhmara sar ba longn loya datwany L bnwsy yan na ba dry xot
  System.out.println( " totalValue = " + totalValue ) ;
- 
+
+  short totalValue = (short)(20_000 + (10 * sumOfThree));
+   System.out.println( " totalValue = " + totalValue ) ;
+
 }
 }
