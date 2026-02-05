@@ -155,7 +155,34 @@ int A = 4;
  B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
  System.out.println(B);
 
+ boolean isCar = true;
+ if (isCar)   // hokary away ka nabet la rstay if ; habet awaya ka agar falsesh bet codeaka har run dabet
+ System.out.println(" this is your car"); 
+
+ boolean isCar = false;
+ if (!isCar)
+  System.out.println(" this is your car ");
+
+ boolean isStudent = false;
+ if (isStudent) {
+ System.out.println(" this is the student ");
+ } else {
+  System.out.println(" this is not the student ");
+ }
+
+boolean isCar = false;
+ if (isCar = true)
+  System.out.println(" this is car ");
+
+ /*
+there is a multiline comment
+*/
+
+ System.out.print(" barham \n is the best programmer ");     // am \n wa dakat ka codey haman line outputy line jyawaz bet
  
+System.out.println ("Barham " + "2026");
+  System.out.println ("Barham" + " 2026");    // am 3 code haman shtn ballam la yakekyan space haya away tr (" ") haya
+  System.out.println (" Barham" +  " " + "2026 ");
  
 
 
