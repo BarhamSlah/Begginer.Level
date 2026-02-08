@@ -188,8 +188,17 @@ boolean isCar = false;
  if (isCar)
   System.out.println(" this is your car");     // labar away ka curley braces nya boya tanha aw statementa sarba baw rstay marjaya  
  System.out.println(" this is not your car");    // labar away ka curley braces nya boya aw rsataya hamisha run dabet wakw rstayaky asayi waya
-// bo away keshat bo drwst nabet awa tananat agar yak rstaat habet awa har curley braces bakarbena 
+// bo away keshat bo drwst nabet awa tananat agar yak rstaat habet awa har curley braces bakarbena
 
+ int ageOfClient = 20;
+ String ageText = (ageOfClient >= 18) ? "Adult" : "kid";
+ System.out.println(" Our client is " + ageText);
+
+ int produceCar = 5000;
+ boolean carFactory = (produceCar >= 4000) ? true : false;
+ if (carFactory) {
+  System.out.println(" We have a lot of Car");
+ }
    
  
 
