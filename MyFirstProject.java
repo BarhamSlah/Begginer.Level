@@ -199,11 +199,16 @@ boolean isCar = false;
  if (carFactory) {
   System.out.println(" We have a lot of Car");
  }
-   
- 
 
+ String makeOfCar = "Toyota";
+ boolean isDomestic = makeOfCar == "Toyota" ? true : false;
+ if (isDomestic) {
+  System.out.println(" Toyota is your car");
+ }
 
- 
+ String carModel = (isDomestic) ? "this is your car" : "this is not your car";
+ System.out.println( carModel );
+
  
  
 }
