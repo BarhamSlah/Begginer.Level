@@ -214,7 +214,15 @@ int stopWatch = 20;
  string oclock = stopWatch == 20 ? "late" : "early";
  System.out.println(oclock):
 
- 
+  double firstValue = 20.00;
+ double secondValue = 80.00;
+ double sum = (firstValue + secondValue) * 100.00 ;
+ double theRemainder = sum % 40;
+ String text = (theRemainder == 0) ? "true" : "false";
+ System.out.println(text);
+ if (theRemainder != 0) {
+  System.out.println(" got some remainder ")
+   }
 
  
  
