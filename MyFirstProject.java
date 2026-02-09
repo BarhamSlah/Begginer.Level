@@ -190,8 +190,9 @@ boolean isCar = false;
  System.out.println(" this is not your car");    // labar away ka curley braces nya boya aw rsataya hamisha run dabet wakw rstayaky asayi waya
 // bo away keshat bo drwst nabet awa tananat agar yak rstaat habet awa har curley braces bakarbena
 
+// here terenary operator is begin
  int ageOfClient = 20;
- String ageText = (ageOfClient >= 18) ? "Adult" : "kid";
+ String ageText = (ageOfClient >= 18) ? "Adult" : "kid";  // tanha law kataana (") bakar bhena agar string bw wata wistt xwdy wshaka print bbet
  System.out.println(" Our client is " + ageText);
 
  int produceCar = 5000;
@@ -201,13 +202,19 @@ boolean isCar = false;
  }
 
  String makeOfCar = "Toyota";
- boolean isDomestic = makeOfCar == "Toyota" ? true : false;
+ boolean isDomestic = makeOfCar == "Toyota" ? true : false;  // boolean isDomestic = makeOfCar == ""Toyota" ? false : true;   =  boolean isDomestic = ( makeOfCar != "Toyota" );                                                  
  if (isDomestic) {
   System.out.println(" Toyota is your car");
  }
 
  String carModel = (isDomestic) ? "this is your car" : "this is not your car";
  System.out.println( carModel );
+
+int stopWatch = 20;
+ string oclock = stopWatch == 20 ? "late" : "early";
+ System.out.println(oclock):
+
+ 
 
  
  
