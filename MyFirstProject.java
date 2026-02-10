@@ -220,10 +220,22 @@ int stopWatch = 20;
  double theRemainder = sum % 40;
  String text = (theRemainder == 0) ? "true" : "false";
  System.out.println(text);
- if (theRemainder != 0) {
-  System.out.println(" got some remainder ")
-   }
 
+int highScore = 200;
+if(highScore > 100) { 
+highScore = 1000 + highScore;
+System.out.println("this is your score by adding bonus");
+} 
+
+int highScore = 100;
+int health = 200;
+ if ((highScore > 50) && (health > 150)) {
+highScore = highScore - 10;
+ health = health - 20;
+ System.out.println(health + highScore);
+ }
+
+ 
  
  
 }
