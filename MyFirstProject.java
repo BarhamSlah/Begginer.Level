@@ -232,7 +232,32 @@ int health = 200;
  if ((highScore > 50) && (health > 150)) {
 highScore = highScore - 10;
  health = health - 20;
- System.out.println(health + highScore);
+ System.out.println(health + highScore);     // anjamy health w highScore kodakretawa watta dabeta 270
+ }
+
+System.out.println(" there are" + 
+              " a lot of line" +
+                   " we wrote");    // code la haman line yan liney jyawaz bnwsy farqy ballam bo jwany w memory la haman line bnwsy jwantra
+
+ float myFloatValue = 30f;
+  myFloatValue ++;   // nawy variable chy bet daby bo aw jora codeash haman sht bkay  + am jora code 1 bo variable zyad daka
+ myFloatValue --;    //  nawy variable chy bet daby bo aw jora codeash haman sht bkay  + am jora code 1 la variable kam dakatawa
+ System.out.println( myFloatValue );
+
+
+ 
+ /* hata if true  bet awany jeba je nabn pashan agar false bet else if je ba je dabet aagr if else false bet awa else je ba je dabet 
+ ballam agar if w else if false bn awa hamisha else run dabet
+ else pewist ba marj nakat  
+*/
+ 
+  int Score = 20;
+ if((Score > 15) && (Score < 25)) {
+  System.out.println(" your score is between 15 and 25");
+ } else if (Score == 20) {                          
+  System.out.println(" your score equal 20 ");
+ } else {
+  System.out.println(" your score less than thirty ");
  }
 
  
