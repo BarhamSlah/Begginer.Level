@@ -275,12 +275,29 @@ int levelCompleted = 5;
 // ba 2 shewaz datwany ka aw codea bnwsy be  away edit bo codea asllyaka bkay awish 
  /*
  1 _ nawy variable  bgory 
- 2 _  datatype rashbkayawa w nrxhy value bgory
+ 2 _  datatype rashbkayawa 
  */
 
- 
- 
 
+int secondScore = 1000;
+int secondLevelCompleted = 5;
+ int secondBouns = 200;
+ int secondFinalScore = (secondScore + secondBouns);
+
+ if (gameOver) {
+  secondFinalScore = (secondLevelCompleted * secondFinalScore);
+  System.out.println(" Your final score = " + secondFinalScore );
+ } 
+ 
+ secondScore = 1000;
+ secondLevelCompleted = 5;
+ secondBouns = 200;
+ secondFinalScore = (secondScore + secondBouns);
+
+ if (gameOver) {
+  secondFinalScore = (secondLevelCompleted * secondFinalScore);
+  System.out.println(" Your final score = " + secondFinalScore );
+ } 
 
 
 
