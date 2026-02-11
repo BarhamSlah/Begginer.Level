@@ -260,6 +260,34 @@ System.out.println(" there are" +
   System.out.println(" your score less than thirty ");
  }
 
+boolean gameOver = true;
+int score = 1000;
+int levelCompleted = 5;
+ int bouns = 200;
+ int finalScore = (score + bouns);
+
+ if (gameOver) {
+  finalScore = (levelCompleted * finalScore);
+  System.out.println(" Your final score = " + finalScore );
+ }
+ 
+// esta dabe haman codey liney (263 ta 272) be away ka hich dastkary bkay  ballam ba shewazek ka btwany hamw shewazakan la haman method bn 
+// ba 2 shewaz datwany ka aw codea bnwsy be  away edit bo codea asllyaka bkay awish 
+ /*
+ 1 _ nawy variable  bgory 
+ 2 _  datatype rashbkayawa w nrxhy value bgory
+ */
+
+ 
+ 
+
+
+
+
+
+
+
+
  
  
  
