@@ -299,6 +299,7 @@ int secondLevelCompleted = 5;
   System.out.println(" Your final score = " + secondFinalScore );
  } 
 
+ A += (price * 2)   ==    A = A + (price * 2)   // awa yaksann
 
 
 
