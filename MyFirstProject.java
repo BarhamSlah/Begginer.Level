@@ -45,38 +45,44 @@ int minValue = Integer.MAX_VALUE;
  System.out.println(" Integer Maximum Value = " + minValue);
  System.out.println(" Integer Maximum Value = " + Integer.MAX_VALUE);
 
- 
-
- 
-
-int minIntValue = Integer.MIN_VALUE;
- System.out.println (" Integer Min Value = " + minIntValue);
- System.out.println (" Integer Min Value = " + Integer.MIN_VALUE);
- 
- int maxIntValue = 2_147_483_647;  // tanha (_) rasta la newan zhmara dabney nak (,)
- System.out.println(" Busted Max Value = " + (maxIntValue + 1));
-
- int myValue = 1_000_000; //this is true 
+int myValue = 1_000_000; //this is true 
  int myVlaue = 1,000,000; //this is false
  
+int minIntValue = 2_147_483_647;
+ System.out.println(" Busted Max Value = " + (maxIntValue + 1));
 
 int minIntValue = -2_147_483_648;
 System.out.println( " Busted Min Value = " + (minIntValue - 1));
 
+System.out.println(" Integer Value Range ("+ Integer.MIN_VALUE + " to " + Integer.MAX_VALUE +")");
+ System.out.println(" Short Value Range ("+ Short.MIN_VALUE + " to " + Short.MAX_VALUE +")");
+
 System.out.println(" A Integer has a width of " + Integer.SIZE);
 
 long longValue = 2_147_483_647;    // labar away la range integer darnachwa loya pewist ba (L) nakat
-long largeValue = 2_147_483_647_444L;   
+long largeValue = 2_147_483_647_444L;   // awja dakre L yan l bet kesha nya
+
+// agar la lay zhmarayak hich petek nabet w zhmaray tawaw bet awa ba int hsaba chwnka integer defaulta
 
 System.out.println( largeValue);
 System.out.println(longValue);
 
- System.out.println(" Integer Value Range ("+ Integer.MIN_VALUE + " to " + Integer.MAX_VALUE +")");
- System.out.println(" Short Value Range ("+ Short.MIN_VALUE + " to " + Short.MAX_VALUE +")");
-
 short shortValue = Short.MIN_VALUE ,secondShortValue = Short.MAX_VALUE;   // Agar haman jor bwn awa bo jary dwam nawy datatype manwsa w (,) bakar bena
 int integerValue = Integer.MAX_VALUE ;  long myLongValue = Long.MIN_VALUE;  // agar haman jor nabwn dabet nawy datatype bnwsy w (;) bakar bet
 
+//lera basy casting dakam
+/* 
+xokar : watta jory bchwk bgory bo jory gawra 
+int intvalue = 20;
+double doubleValue = intValue;
+(char_short_byte) aw 3 jora agar lagall yakrt yan batanya krdari birkaryan basar hat ba int hsaba 
+
+dastkrd : watta jory gawra bo bchwk 
+float floatValue = 3f;
+int intValue = (int)floatValue;
+(double_float_long) aw 3 jora agar batanya krdary birkaryan basar hat  har wakw xoyann hsabn ballam lagall yakatr ba pey gawraka dabet (double,float,long) 
+*/
+ 
 int anotherValue = 10;
  double doubleValue = anotherValue;
  System.out.println(doubleValue);
