@@ -1,7 +1,7 @@
 public class MyFirstProject {
 public static void main (String [] args){
 
-Systtem.out.println("barham"); 
+Systtem.out.println("barham"); // har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
 
  int myvalue = 5;
  System.out.println("myvalue");
@@ -11,7 +11,25 @@ int myFirstNumber = 1;
  int mySecondNumber = 10;
  int myThirdNumber = 100;
  System.out.println(" Hello world ");
+ 
+ /var   // variablea kant ba  list dadate ba pey rez bandy 
+ /list   // hamw aw codeanat dadate ka nwsiwta ba pey rez bandy 
 
+ /*
+ primivate datatype ( byte , short , int , long , float , double , boolean , char )
+ hamw primivate datatypek keyworda ballam hamw keywordek primivate datatype nya
+ */
+  
+int myValue = 10;
+myvalue = 10;   /* lera boman dardakawe ka agar jarashka aw variablea declare bkain awa pewist naka disan nawy datatype bnwsy aw qsa 
+jora datatypek rasta nak bo joreky dyari kraw */
+
+ /* datatype 2 jory haya  1-primivate datatype   2- non primivate datatype 
+ hamw jorakany primivate datatype overflow w underflow yan haya tanha boolean nabet 
+ ballam non primivate datatype hichyan underflow w overflowyan nya */
+
+ 
+  
  int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 System.out.println(myTotal);
 
@@ -29,7 +47,11 @@ int minIntValue = Integer.MIN_VALUE;
  System.out.println (" Integer Min Value = " + Integer.MIN_VALUE);
  
  int maxIntValue = 2_147_483_647;  // tanha (_) rasta la newan zhmara dabney nak (,)
- System.out.println( " Busted Max Value = " + (maxIntValue + 1));
+ System.out.println(" Busted Max Value = " + (maxIntValue + 1));
+
+ int myValue = 1_000_000; //this is true 
+ int myVlaue = 1,000,000; //this is false
+ 
 
 int minIntValue = -2_147_483_648;
 System.out.println( " Busted Min Value = " + (minIntValue - 1));
