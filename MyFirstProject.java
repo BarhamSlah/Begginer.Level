@@ -27,20 +27,27 @@ jora datatypek rasta nak bo joreky dyari kraw */
  /* datatype 2 jory haya  1-primivate datatype   2- non primivate datatype 
  hamw jorakany primivate datatype overflow w underflow yan haya tanha boolean nabet 
  ballam non primivate datatype hichyan underflow w overflowyan nya */
-
  
   
  int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 System.out.println(myTotal);
-
-// ba 2 shewaz datwanin ka aw variablay decleareman krdwa bigorin tamashay line 20 w 21 bka hardkw shewaz tawawa  
+ 
+ int myFirstNumber = 5;
+ // ba 2 shewaz datwanin ka aw variablay decleareman krdwa bigorin tamashay line 20 w 21 bka hardkw shewaz tawawa
 myFirstNumber = myFirstNumber + 5;
  myFirstNumber = 6;
 System.out.println(myFirstNumber);
 
-int maxIntValue = Integer.MAX_VALUE;
- System.out.println(" Integer Maximum Value = " + maxIntValue);
+ 
+/*ba 2 shewaz datwanin kamtrin valuey datatpyeaka bzanin awa bo hanw jora dataypek dabet kamat wist nawakay bnwsa
+harwaha datwanin haman code bo zanini gawratrin valuey datatype bakarbenin ba gorini Mimiimum bo Maximum
+int minValue = Integer.MAX_VALUE;
+ System.out.println(" Integer Maximum Value = " + minValue);
  System.out.println(" Integer Maximum Value = " + Integer.MAX_VALUE);
+
+ 
+
+ 
 
 int minIntValue = Integer.MIN_VALUE;
  System.out.println (" Integer Min Value = " + minIntValue);
