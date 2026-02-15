@@ -104,7 +104,8 @@ short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatyp
 
  /*
  chonyati nwsini double lagall float 
- double : 1-
+ double : 1- yan D yan  d danwsy     2- yan awata point danwsy chwnka deafaulty zhmaray point doublea 3- yan bas zhmarayaky tawaw danwsy 
+ float : dabet ba point bet w F yan f bnwsy 
  */
  
  double A = 2;
@@ -115,8 +116,7 @@ short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatyp
  System.out.println(" B = " + B);
  System.out.println(" C = " + C);
  System.out.println(" D = " + D);
- 
-float A = 5;
+
  float B = 5.25f;
  float C = 5.25F;
 
@@ -128,7 +128,8 @@ double B = 4.00/2.0;
 double C = 4.0/2.0;
 double D = 4.00/2;
 double E = 4.0/2;
- 
+double A = 4 / 2;   // awa hich kehsay nya
+double B = 5 / 2;   // esta labar away hardwk zhmara ba integer a boya anjam dakata 2 aw 1 ka damenetawa faramosh dakrre boya wa bashtra ka hardwkyan ba int nanwsy bo away twshy aw kehsaya naby 
 double A = 5.00;
 double A = 5.0;
 double B = 5D;
