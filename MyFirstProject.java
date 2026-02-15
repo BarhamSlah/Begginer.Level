@@ -69,6 +69,8 @@ System.out.println(longValue);
 
 short shortValue = Short.MIN_VALUE ,secondShortValue = Short.MAX_VALUE;   // Agar haman jor bwn awa bo jary dwam nawy datatype manwsa w (,) bakar bena
 int integerValue = Integer.MAX_VALUE ;  long myLongValue = Long.MIN_VALUE;  // agar haman jor nabwn dabet nawy datatype bnwsy w (;) bakar bet
+<img width="111" height="125" alt="Image" src="https://github.com/user-attachments/assets/af77cc7c-a82a-47ef-9f9e-575bba05b795" />
+
 
 //lera basy casting dakam
 /* 
