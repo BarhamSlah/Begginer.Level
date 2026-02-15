@@ -91,17 +91,22 @@ int anotherValue = 10;
  byte bytevalue = (byte)floatValue ;
  System.out.println(bytevalue);
  
-short A = 20;   // bchwk bo gawra pewist ba casting nakat 
-long L = A;
- System.out.println(L);
-
- double A = 20d;
- int B = (int) A;  // gawra bo bchwk pewist ba casting dakat
- System.out.println(B);
-
 short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatype darnachet
  System.out.println(Z); 
 
+ /*
+ the double is java`s deafault type for any decimal number 
+ there are two primivate datatypes in java for expressing floating-point numbers : 1- float   2- double 
+ we use a floating-point number when we need more precision in calculations
+ double wrdtra la float ballam agar pewistit ba wrdy nabw awa datwany float bakarbeny
+ aw factoray ka wa daka la jyat (whole-number) (floating-point) bakar benin awaya ka pewistyman ba wrdy habet
+ */
+
+ /*
+ chonyati nwsini double lagall float 
+ double : 1-
+ */
+ 
  double A = 2;
  double B = 2.25;
  double C = 2D;
