@@ -124,6 +124,8 @@ short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatyp
 
  double A = 5e4;
  System.out.println( " A = " + A );
+ //out.input.jpg
+ 
 
 double A = 4.00/2.00;
 double B = 4.00/2.0;
