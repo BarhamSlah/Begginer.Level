@@ -166,6 +166,10 @@ byte A = 5;
  int totalValue = ( A + B );
  System.out.println( "TotalValue = " = totalValue);
 
+ double myValue = 3_000_000.435;  // input = 3000000.435
+
+ // harchanda (float & double) bo hsab krdny fariza ballam bo karwbary bank kesha drwst daka boya  bigdecimal bashtra
+
 char a = 'H';
  char b = 68;
  char c = '\u0068';
