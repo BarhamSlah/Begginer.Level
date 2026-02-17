@@ -170,11 +170,30 @@ byte A = 5;
 
  // harchanda (float & double) bo hsab krdny fariza ballam bo karwbary bank kesha drwst daka boya  bigdecimal bashtra
 
-char a = 'H';
- char b = 68;
- char c = '\u0068';
- char V = 0x0068;
+char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrty char bo har shtek bakardet ka yak literal laxo bgret
+ char b = 68;    // unicodenumber 
+ char c = '\u0068'; // javascript-JSON
+ char V = 0x0068;  // java
 
+ /*
+ the common primivate datatype are (Integer & double & boolean)
+ from the time use the (long & char)
+ rarly use the (float & byte & short) when you get more experienced the most less use is byte
+  */
+
+ /*
+ BIG DECIMAL : jora classeka ka teyda mamalla lagall zhmaray ba point dakre  ka teyda hsab bo chand zhmaray pash fariza daka ka btawe & zhmaray zor gawra laxo dagret ka (double&float) natwann laxoy bgrn 
+  bochy bakarde : 1- karwbary bank 
+  2- law shwenanay ka pewisty ba wrdy zor haya 
+  example : agar float yan double bet awa 0.3 ballam bigdecimal 0.300_000_004 boya zor hastyara
+  */
+
+ /*
+ CLASS : custom & special datatypea watta dast krda ka wadaka chand joreky data (nwsin & zhmara) la yak shwen kobkaytawa
+ for example  : datwane yak chandin datay wakw (boolean / double) kobkatawa
+ */
+ 
+ 
  String S = "Barham Slah";
         S = S  + " is the best developer";
         System.out.println(S);
