@@ -195,7 +195,7 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
  
  
  String S = "Barham Slah";
-        S = S  + " is the best developer";
+        S = S  + " is the best developer";  // habwny space lera ("is )  yan (slah") wadaka lanewan barham  slah w is the best developer space habet 
         System.out.println(S);
 
  
