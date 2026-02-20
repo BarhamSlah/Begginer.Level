@@ -227,15 +227,14 @@ newResult = newResult - 1;  //esta valuey oldfresult  = 3 watta hich gorankary b
 double a = 5 / 3.0;  // 1.6666667
 double b = 5 % 3;  // 2
  
+// incrementing by one and decrementing by one very common requirement in programming 
 
-
- 
  int A = 1;
- A ++;   // A--:
+ A ++;   // A = A + 1;
  System.out.println(A);
 
  int A = 1;
- A +=1;  //A-=1;
+ A +=1;  // A = A + 1;
   System.out.println(A);
 
  int E = 5;
@@ -250,34 +249,52 @@ int A = 4;
  B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
  System.out.println(B);
 
- boolean isCar = true;
- if (isCar)   // hokary away ka nabet la rstay if ; habet awaya ka agar falsesh bet codeaka har run dabet
- System.out.println(" this is your car"); 
-
- boolean isCar = false;
- if (!isCar)
-  System.out.println(" this is your car ");
-
- boolean isStudent = false;
- if (isStudent) {
- System.out.println(" this is the student ");
- } else {
-  System.out.println(" this is not the student ");
- }
-
-boolean isCar = false;
- if (isCar = true)
-  System.out.println(" this is car ");
-
+ // from now on the  intellij begin 
  /*
-there is a multiline comment
+bash nya la katy nwsyni Address w project space bakar bet labar bwny kesha w vairous la hande OP
+Upper w Lower bakardet katek 
+1 _ natwanit space bakar benit watta bo more readable
+2 _ agar la teamek kar bkait hamw dazann ka (user) variablea ballam (User) classa
+Upper camel case ( pascal case) : used for clasess and interface
+lower camel case : used for variable and functions
+ */
+
+/* la rstay if agar curly braces bakar nahenin awa conditionaka tanha bo rstay yakama watta agar conditionaka true bw 
+ awa rstay yakam run dabet ballam agar conditionaka false bet awa tanha rstay yakam run nabet w la har dw hallat 
+  rstakany tr run dabn bo away twshy le rabe awa agar tanha yak rstat habw curly braces bakar bhena */
+
+ boolean isCar = true;
+ if (isCar) 
+ System.out.println(" this is your car"); 
+/*
+ hokary away ka nabet la rstay if ; habet awaya ka agar falsesh bet codeaka har run dabet
+ (isCar) = (isCar == true) boya true danrawa labar away ka lz sarawa isCar = true ballam bam sheway sarawa Pro tra
 */
 
- System.out.print(" barham \n is the best programmer ");     // am \n wa dakat ka codey haman line outputy line jyawaz bet
  
-System.out.println ("Barham " + "2026");
+ boolean isCar = false;
+ if (!isCar) 
+  System.out.println(" this is your car ");
+
+boolean isCar = false;
+ if (isCar = true)   // lerada hsab bo daraway kawana nakre labar away to nrxy variablet gory w tanha la boolean datwany 1 (=) dabney lanaw kawana watta assignment bkay nak comparasion  
+ System.out.println(" this is car ");
+
+ System.out.print(" barham \n is the best programmer ");     // am \n wa dakat ka codey haman line outputy line jyawaz be
+ 
+  System.out.println ("Barham " + "2026");
   System.out.println ("Barham" + " 2026");    // am 3 code haman shtn ballam la yakekyan space haya away tr (" ") haya
   System.out.println (" Barham" +  " " + "2026 ");
+
+/*
+        int a = 20 , b = 26;
+        System.out.println("" + a + b);  //2026
+        System.out.println(" " + a + b); // 2026
+        System.out.println( a + "" + b); //2026
+        System.out.println(a + " " + b); //20 26
+        
+*/
+ 
 
 boolean isCar = false;
  if (isCar)
@@ -345,6 +362,14 @@ System.out.println(" there are" +
  ballam agar if w else if false bn awa hamisha else run dabet
  else pewist ba marj nakat  
 */
+
+ boolean isStudent = false;
+ if (isStudent) {
+ System.out.println(" this is the student ");
+ } else {
+  System.out.println(" this is not the student ");
+ }
+
  
   int Score = 20;
  if((Score > 15) && (Score < 25)) {
