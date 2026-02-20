@@ -201,9 +201,10 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
  
 char firstChar = 'A' , secondChar =  'B' , thirdChar = '#';
  System.out.println( firstChar + secondChar + thirdChar );  // lera away lanaw single quote bet la unicode raqam chand bet katek printy dakay awandat dadate  
- System.out.println("" + firstChar + se\u0024condChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
+ System.out.println("" + firstChar + secondChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
 
-String myString = " I wish i had one million\u0024 ";
+String myString = " I wish i had \u00241_000_000 ";  // when symbols arent available on your keyboard and you will to look up their unicode value
+ System.out.println(myString);
  
  int A = 1;
  A ++;   // A--:
