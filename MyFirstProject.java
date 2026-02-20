@@ -1,7 +1,7 @@
 public class MyFirstProject {
 public static void main (String [] args){
 
-Systtem.out.println("barham"); // har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
+System.out.println("barham"); // har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
 
  int myvalue = 5;
  System.out.println("myvalue");
@@ -134,13 +134,12 @@ short Z = (4/2);  // grng awaya ka anjamy zhmaray naw kawana la range aw datatyp
  System.out.println( " A = " + A );
  //out.input.jpg
  
-
 double A = 4.00/2.00;
 double B = 4.00/2.0;
 double C = 4.0/2.0;
 double D = 4.00/2;
 double E = 4.0/2;
-double A = 4 / 2;   // awa hich kehsay nya
+double A = 4 / 2;   // rasta awha error nadat ballam agar hardw zhmara zhmaray tawaw nabn awa anjam halla dadat 
 double B = 5 / 2;   // esta labar away hardwk zhmara ba integer a boya anjam dakata 2 aw 1 ka damenetawa faramosh dakrre boya wa bashtra ka hardwkyan ba int nanwsy bo away twshy aw kehsaya naby 
 double A = 5.00;
 double A = 5.0;
@@ -224,8 +223,10 @@ int oldResult = newResult;
 newResult = newResult - 1;  //esta valuey oldfresult  = 3 watta hich gorankary basar naya ballam oldResult = 2
  
 // Remaider operator = modulus = modulo = mod = % 
+// katek / bakar daheny awa anjamt dadate ballam katek % bakar daheny awa mawat dadate
+double a = 5 / 3.0;  // 1.6666667
+double b = 5 % 3;  // 2
  
-
 
 
  
