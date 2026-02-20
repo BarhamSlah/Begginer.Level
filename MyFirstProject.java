@@ -263,6 +263,11 @@ lower camel case : used for variable and functions
  awa rstay yakam run dabet ballam agar conditionaka false bet awa tanha rstay yakam run nabet w la har dw hallat 
   rstakany tr run dabn bo away twshy le rabe awa agar tanha yak rstat habw curly braces bakar bhena */
 
+boolean isCar = false;
+ if (isCar)
+  System.out.println(" this is your car");     // labar away ka curley braces nya boya tanha aw statementa sarba baw rstay marjaya  
+ System.out.println(" this is not your car");    // labar away ka curley braces nya boya aw rsataya hamisha run dabet wakw rstayaky asayi waya
+
  boolean isCar = true;
  if (isCar) 
  System.out.println(" this is your car"); 
@@ -273,7 +278,7 @@ lower camel case : used for variable and functions
 
  
  boolean isCar = false;
- if (!isCar) 
+ if (!isCar)   //NOT operator = logical complent operator = !
   System.out.println(" this is your car ");
 
 boolean isCar = false;
@@ -283,25 +288,19 @@ boolean isCar = false;
  System.out.print(" barham \n is the best programmer ");     // am \n wa dakat ka codey haman line outputy line jyawaz be
  
   System.out.println ("Barham " + "2026");
-  System.out.println ("Barham" + " 2026");    // am 3 code haman shtn ballam la yakekyan space haya away tr (" ") haya
+  System.out.println ("Barham" + " 2026");    // am 3 code haman outputyan haya 
   System.out.println (" Barham" +  " " + "2026 ");
 
 /*
         int a = 20 , b = 26;
+        System.out.println(a + b):       //46
         System.out.println("" + a + b);  //2026
         System.out.println(" " + a + b); // 2026
         System.out.println( a + "" + b); //2026
         System.out.println(a + " " + b); //20 26
-        
+        ballam nabet aw double quote la la kotaye dabney 
 */
  
-
-boolean isCar = false;
- if (isCar)
-  System.out.println(" this is your car");     // labar away ka curley braces nya boya tanha aw statementa sarba baw rstay marjaya  
- System.out.println(" this is not your car");    // labar away ka curley braces nya boya aw rsataya hamisha run dabet wakw rstayaky asayi waya
-// bo away keshat bo drwst nabet awa tananat agar yak rstaat habet awa har curley braces bakarbena
-
 // here terenary operator is begin
  int ageOfClient = 20;
  String ageText = (ageOfClient >= 18) ? "Adult" : "kid";  // tanha law kataana (") bakar bhena agar string bw wata wistt xwdy wshaka print bbet
