@@ -367,7 +367,7 @@ System.out.println(" there are" +
  System.out.println(" this is the student ");
  } else {
   System.out.println(" this is not the student ");
- }
+ }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
 
  
   int Score = 20;
@@ -419,15 +419,6 @@ int secondLevelCompleted = 5;
  } 
 
  A += (price * 2)   ==    A = A + (price * 2)   // awa yaksann
-
-
-
-
-
-
- 
- 
- 
- 
+  
 }
 }
