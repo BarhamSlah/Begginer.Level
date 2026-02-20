@@ -16,9 +16,17 @@ int myFirstNumber = 1;
  /list   // hamw aw codeanat dadate ka nwsiwta ba pey rez bandy 
 
  /*
- primivate datatype ( byte , short , int , long , float , double , boolean , char )
+ primivate datatype : aw jora datatypenan ka lanaw zmanakan hana , qabarayan dyari kraw nya
+ ( byte , short , int , long , float , double , boolean , char )
  hamw primivate datatypek keyworda ballam hamw keywordek primivate datatype nya
+ nabet nawy datatype la variable bnein
  */
+
+  /*
+  non primivate datatype ( Reference types ) : aw jora datatypenan ka la layan programmar dadanre,
+  qabarayan dyari krawe nya
+  (Array , String , Class , Object , Interface)
+  */
   
 int myValue = 10;
 myvalue = 10;   /* lera boman dardakawe ka agar jarashka aw variablea declare bkain awa pewist naka disan nawy datatype bnwsy aw qsa 
@@ -175,6 +183,11 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
  char c = '\u0068'; // javascript-JSON
  char V = 0x0068;  // java
 
+ char firstChar = 'A' , secondChar =  'B' , thirdChar = '#';
+ System.out.println( firstChar + secondChar + thirdChar );  // lera away lanaw single quote bet la unicode raqam chand bet katek printy dakay awandat dadate  
+ System.out.println("" + firstChar + secondChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
+
+
  /*
  the common primivate datatype are (Integer & double & boolean)
  from the time use the (long & char)
@@ -198,13 +211,19 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
         S = S  + " is the best developer";  // habwny space lera ("is )  yan (slah") wadaka lanewan barham  slah w is the best developer space habet 
         System.out.println(S);
 
+ /* katek to (S)y dwam danwsy awa automaticlly hi yakam rash dabetawa rasta to awa ba chaw nabini
+ ballam bo save memeory grnga amash ba manay awa det ka string immutale */
+
  
-char firstChar = 'A' , secondChar =  'B' , thirdChar = '#';
- System.out.println( firstChar + secondChar + thirdChar );  // lera away lanaw single quote bet la unicode raqam chand bet katek printy dakay awandat dadate  
- System.out.println("" + firstChar + secondChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
+// int x = 4 * 2;  operand:4&2   operator:*   variable = x   value = 8   expression x = 4 * 2
+ 
+ 
 
 String myString = " I wish i had \u00241_000_000 ";  // when symbols arent available on your keyboard and you will to look up their unicode value
  System.out.println(myString);
+
+
+ 
  
  int A = 1;
  A ++;   // A--:
