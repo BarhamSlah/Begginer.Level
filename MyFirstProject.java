@@ -214,16 +214,20 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
  /* katek to (S)y dwam danwsy awa automaticlly hi yakam rash dabetawa rasta to awa ba chaw nabini
  ballam bo save memeory grnga amash ba manay awa det ka string immutale */
 
- 
 // int x = 4 * 2;  operand:4&2   operator:*   variable = x   value = 8   expression x = 4 * 2
  
- 
-
 String myString = " I wish i had \u00241_000_000 ";  // when symbols arent available on your keyboard and you will to look up their unicode value
  System.out.println(myString);
 
-
+int newResult = 3;
+int oldResult = newResult;
+newResult = newResult - 1;  //esta valuey oldfresult  = 3 watta hich gorankary basar naya ballam oldResult = 2
  
+// Remaider operator = modulus = modulo = mod = % 
+ 
+
+
+
  
  int A = 1;
  A ++;   // A--:
