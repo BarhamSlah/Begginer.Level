@@ -354,14 +354,31 @@ highScore = 1000 + highScore;
 System.out.println("this is your score by adding bonus");
 } 
 
+ /*
+In Java we have 51 keywords by the time you leann it throughout the course 
+You can`t use the keywords to variables for instance :
+int double = 2; // this is false
+int double2 = 2;  // this  is  true
+Now we talk about rules for naming variables called (Identifiers):
+1 _ ($) is acceptable anywhere
+2 _ (_) is acceptable anywhere
+3 _ (number) is acceptable but not  in the beginning
+4 _ (-) that is not acceptable  
+ */
+ 
+ /* && dabet hardkw marj true bet awja rasta  
+ || dabet yak marj yan hardwk true bet awja  rasta */ 
 int highScore = 100;
 int health = 200;
- if ((highScore > 50) && (health > 150)) {
+ if ((highScore > 50) && (health > 150)) {  
 highScore = highScore - 10;
  health = health - 20;
  System.out.println(health + highScore);     // anjamy health w highScore kodakretawa watta dabeta 270
  }
 
+/*int   a    = 
+ 2        ;   datwany bam shewa code bnwsy ballam bash w jwan nya */
+ 
 System.out.println(" there are" + 
               " a lot of line" +
                    " we wrote");
@@ -395,6 +412,13 @@ boolean isStudent = false;
   System.out.println(" this is not the student ");
  }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
 
+
+
+
+
+
+
+ 
 boolean gameOver = true;
 int score = 1000;
 int levelCompleted = 5;
