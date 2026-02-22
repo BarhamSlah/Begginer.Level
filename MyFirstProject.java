@@ -13,7 +13,7 @@ int myFirstNumber = 1;
  System.out.println(" Hello world ");
  
  /var   // variablea kant ba  list dadate ba pey rez bandy 
- /list   // hamw aw codeanat dadate ka nwsiwta ba pey rez bandy 
+ /list  // hamw aw codeanat dadate ka nwsiwta ba pey rez bandy 
 
  /*
  primivate datatype : aw jora datatypenan ka lanaw zmanakan hana , qabarayan dyari kraw nya
