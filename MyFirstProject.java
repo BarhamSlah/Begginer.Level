@@ -376,8 +376,20 @@ highScore = highScore - 10;
  System.out.println(health + highScore);     // anjamy health w highScore kodakretawa watta dabeta 270
  }
 
-/*int   a    = 
- 2        ;   datwany bam shewa code bnwsy ballam bash w jwan nya */
+/* awa 5 shta sar ba if-statementa ( if , { , } , ( , ) 
+expression : 1 - health > 150
+2 - highScore > 50
+3 - (highScore > 50) && (health > 150)
+4 - highScore = highScore - 10;
+5 - highScore - 10
+6 - health = health - 20;
+7 - health - 20
+*/
+ 
+ /*
+ int   a    = 
+ 2        ;   datwany bam shewa code bnwsy ballam bash w jwan nya
+ */
  
 System.out.println(" there are" + 
               " a lot of line" +
@@ -412,13 +424,6 @@ boolean isStudent = false;
   System.out.println(" this is not the student ");
  }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
 
-
-
-
-
-
-
- 
 boolean gameOver = true;
 int score = 1000;
 int levelCompleted = 5;
