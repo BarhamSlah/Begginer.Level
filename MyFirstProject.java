@@ -364,28 +364,21 @@ highScore = highScore - 10;
 
 System.out.println(" there are" + 
               " a lot of line" +
-                   " we wrote");    // code la haman line yan liney jyawaz bnwsy farqy ballam bo jwany w memory la haman line bnwsy jwantra
-
+                   " we wrote");
+    /*codey sout la haman line yan liney jyawaz bnwsy farqy nya ballam bo jwany w memory la haman line bnwsy jwantra
+ballam agar codey sout la liney jyawaz bnwsy dabet baw shewazay sarawa bet nak tanha leky jya bkayawa awa hallaya (" a
+n");  */
+ 
  float myFloatValue = 30f;
   myFloatValue ++;   // nawy variable chy bet daby bo aw jora codeash haman sht bkay  + am jora code 1 bo variable zyad daka
  myFloatValue --;    //  nawy variable chy bet daby bo aw jora codeash haman sht bkay  + am jora code 1 la variable kam dakatawa
  System.out.println( myFloatValue );
 
-
- 
  /* hata if true  bet awany jeba je nabn pashan agar false bet else if je ba je dabet aagr if else false bet awa else je ba je dabet 
  ballam agar if w else if false bn awa hamisha else run dabet
  else pewist ba marj nakat  
 */
 
- boolean isStudent = false;
- if (isStudent) {
- System.out.println(" this is the student ");
- } else {
-  System.out.println(" this is not the student ");
- }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
-
- 
   int Score = 20;
  if((Score > 15) && (Score < 25)) {
   System.out.println(" your score is between 15 and 25");
@@ -394,6 +387,13 @@ System.out.println(" there are" +
  } else {
   System.out.println(" your score less than thirty ");
  }
+
+boolean isStudent = false;
+ if (isStudent) {
+ System.out.println(" this is the student ");
+ } else {
+  System.out.println(" this is not the student ");
+ }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
 
 boolean gameOver = true;
 int score = 1000;
