@@ -27,6 +27,16 @@ int myFirstNumber = 1;
   qabarayan dyari krawe nya
   (Array , String , Class , Object , Interface)
   */
+
+  /* The ranges of primivate-datatype : 
+  Byte : ( -128 to 127 ) 
+  Short : ( -32_768 to 32_767 )
+  Int : ( -2_147_483_648 to 2_147_483_647 )
+  Float : ( 1.4 * 10^-45 to 3.4 * 10^38 )
+  Double : ( 4.9 * 10^-324 to 1.79 * 10^308)
+  Char : ( 0 to 65_535) 
+  Long : ( -9_223_372_036_854_775_808 to 9_223_372_036_854_775_807 )
+  */
   
 int myValue = 10;
 myvalue = 10;   /* lera boman dardakawe ka agar jarashka aw variablea declare bkain awa pewist naka disan nawy datatype bnwsy aw qsa 
@@ -36,7 +46,6 @@ jora datatypek rasta nak bo joreky dyari kraw */
  hamw jorakany primivate datatype overflow w underflow yan haya tanha boolean nabet 
  ballam non primivate datatype hichyan underflow w overflowyan nya */
  
-  
  int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 System.out.println(myTotal);
  
@@ -46,7 +55,6 @@ myFirstNumber = myFirstNumber + 5;
  myFirstNumber = 6;
 System.out.println(myFirstNumber);
 
- 
 /*ba 2 shewaz datwanin kamtrin valuey datatpyeaka bzanin awa bo hanw jora dataypek dabet kamat wist nawakay bnwsa
 harwaha datwanin haman code bo zanini gawratrin valuey datatype bakarbenin ba gorini Mimiimum bo Maximum
 int minValue = Integer.MAX_VALUE;
@@ -78,7 +86,6 @@ System.out.println(longValue);
 short shortValue = Short.MIN_VALUE ,secondShortValue = Short.MAX_VALUE;   // Agar haman jor bwn awa bo jary dwam nawy datatype manwsa w (,) bakar bena
 int integerValue = Integer.MAX_VALUE ;  long myLongValue = Long.MIN_VALUE;  // agar haman jor nabwn dabet nawy datatype bnwsy w (;) bakar bet
 <img width="111" height="125" alt="Image" src="https://github.com/user-attachments/assets/af77cc7c-a82a-47ef-9f9e-575bba05b795" />
-
 
 //lera basy casting dakam
 /* 
@@ -186,7 +193,6 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
  System.out.println( firstChar + secondChar + thirdChar );  // lera away lanaw single quote bet la unicode raqam chand bet katek printy dakay awandat dadate  
  System.out.println("" + firstChar + secondChar + thirdChar);   // dway "" + chy bnwsy dabeta hoy away pekawa blken  
 
-
  /*
  the common primivate datatype are (Integer & double & boolean)
  from the time use the (long & char)
@@ -204,8 +210,7 @@ char a = 'H';    // use just one literal   + use this site (symbl.cc)  + ba kwrt
  CLASS : custom & special datatypea watta dast krda ka wadaka chand joreky data (nwsin & zhmara) la yak shwen kobkaytawa
  for example  : datwane yak chandin datay wakw (boolean / double) kobkatawa
  */
- 
- 
+  
  String S = "Barham Slah";
         S = S  + " is the best developer";  // habwny space lera ("is )  yan (slah") wadaka lanewan barham  slah w is the best developer space habet 
         System.out.println(S);
@@ -276,7 +281,6 @@ boolean isCar = false;
  (isCar) = (isCar == true) boya true danrawa labar away ka lz sarawa isCar = true ballam bam sheway sarawa Pro tra
 */
 
- 
  boolean isCar = false;
  if (!isCar)   //NOT operator = logical complent operator = !
   System.out.println(" this is your car ");
@@ -441,7 +445,6 @@ int levelCompleted = 5;
  1 _ nawy variable  bgory 
  2 _  datatype rashbkayawa 
  */
-
 
 int secondScore = 1000;
 int secondLevelCompleted = 5;
