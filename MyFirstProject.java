@@ -433,9 +433,8 @@ int score = 1000;
 int levelCompleted = 5;
  int bouns = 200;
  int finalScore = (score + bouns);
-
  if (gameOver) {
-  finalScore = (levelCompleted * finalScore);
+  finalScore += (levelCompleted * finalScore);
   System.out.println(" Your final score = " + finalScore );
  }
  
@@ -450,7 +449,6 @@ int secondScore = 1000;
 int secondLevelCompleted = 5;
  int secondBouns = 200;
  int secondFinalScore = (secondScore + secondBouns);
-
  if (gameOver) {
   secondFinalScore = (secondLevelCompleted * secondFinalScore);
   System.out.println(" Your final score = " + secondFinalScore );
@@ -460,13 +458,12 @@ int secondLevelCompleted = 5;
  secondLevelCompleted = 5;
  secondBouns = 200;
  secondFinalScore = (secondScore + secondBouns);
-
  if (gameOver) {
   secondFinalScore = (secondLevelCompleted * secondFinalScore);
   System.out.println(" Your final score = " + secondFinalScore );
  } 
+ 
 
- A += (price * 2)   ==    A = A + (price * 2)   // awa yaksann
-  
-}
+
+}  
 }
