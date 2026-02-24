@@ -1,6 +1,6 @@
 public class MyFirstProject {
-public static void main (String [] args){
-
+public static void main (String [] args){  // am linea  taybata ba dast be krdny program
+ 
 System.out.println("barham"); // har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
 
  int myvalue = 5;
@@ -470,9 +470,16 @@ the disadvantage with copying and pasting code is we are duplicating code that m
  yakekyan bkain awa awaytr gorankary basar naya chwnka copy w pastea
  */
 
-/* Methods take the code block to the next level and effectively allow us to reuse that code in many 
-places with the code written in just a single place so we type the code once and reuse it many time*/
+/* Methods:take the code block to the next level and effectively allow us to reuse that code in many 
+places with the code written in just a single place so we type the code once and reuse it many time
+swdakany method : 1- reduce duplication code 
+2- datwane chand anjameky jyawazt bdate ba pey aw argumentay pey daday 
+All the code  between thr left and right curly braces is the called (method block ) & (method body) 
+You can use any name for method & use lower camel case to name method
+jare tawk  mawayak bo nwsiny method (public static void) har bnwsa dwatr nawy method
+*/
  
 
+ 
 }  
 }
