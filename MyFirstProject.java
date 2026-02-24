@@ -450,7 +450,7 @@ int secondLevelCompleted = 5;
  int secondBouns = 200;
  int secondFinalScore = (secondScore + secondBouns);
  if (gameOver) {
-  secondFinalScore = (secondLevelCompleted * secondFinalScore);
+  secondFinalScore = (secondLevelCompleted * secondFinalScore);   //here 
   System.out.println(" Your final score = " + secondFinalScore );
  } 
  
@@ -459,11 +459,20 @@ int secondLevelCompleted = 5;
  secondBouns = 200;
  secondFinalScore = (secondScore + secondBouns);
  if (gameOver) {
-  secondFinalScore = (secondLevelCompleted * secondFinalScore);
+  secondFinalScore = (secondLevelCompleted * secondFinalScore);  // here 
   System.out.println(" Your final score = " + secondFinalScore );
  } 
- 
+ /*
+the disadvantage with copying and pasting code is we are duplicating code that mean if we need to 
+ make change then we need to change it in more than one place and  if we forget that our code is 
+ duplicated we may forget  to change it in one place for example : 
+ lerada 2 secondFinalScore man haya ballam labar away ema copy w paste man krdya boya agar dastkary
+ yakekyan bkain awa awaytr gorankary basar naya chwnka copy w pastea
+ */
 
+/* Methods take the code block to the next level and effectively allow us to reuse that code in many 
+places with the code written in just a single place so we type the code once and reuse it many time*/
+ 
 
 }  
 }
