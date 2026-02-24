@@ -477,6 +477,11 @@ swdakany method : 1- reduce duplication code
 All the code  between thr left and right curly braces is the called (method block ) & (method body) 
 You can use any name for method & use lower camel case to name method
 jare tawk  mawayak bo nwsiny method (public static void) har bnwsa dwatr nawy method
+to execute the method we should be write a line of code that called invoking / called method 
+for simple method we just write the name of method that followed by ();
+when your color of method is changed from the light gray to normal black that mean your method 
+is used and that is not allowed to delete this method but if the color is light gray it is 
+normal to delete the method
 */
  
 
