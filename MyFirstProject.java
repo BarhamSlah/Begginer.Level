@@ -462,6 +462,7 @@ int secondLevelCompleted = 5;
   secondFinalScore = (secondLevelCompleted * secondFinalScore);  // here 
   System.out.println(" Your final score = " + secondFinalScore );
  } 
+ 
  /*
 the disadvantage with copying and pasting code is we are duplicating code that mean if we need to 
  make change then we need to change it in more than one place and  if we forget that our code is 
@@ -483,8 +484,50 @@ when your color of method is changed from the light gray to normal black that me
 is used and that is not allowed to delete this method but if the color is light gray it is 
 normal to delete the method
 */
- 
 
+ boolean gameOver = true;
+ int score = 800;
+ int levelCompleted = 5;
+ int bonus = 100;
+ int finalScore = score;
  
-}  
+/*
+ if (gameOver) {
+ finalScore += (levelCompleted * bonus)
+ finalScore += 1000;
+ System.out.println("Your final score was " + finalScore);
+ }  
+ */   
+
+ // aw if-then sarawa delete dakay labar away esta la methodakaytr copyt krdwa la jyaty awayan danwsy 
+  calculateStore();   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
+ 
+ score = 10_000;
+ levelCompleted = 8;
+ bonus = 200;
+ finalScore = score;
+
+  if (gameOver) {
+ finalScore += (levelCompleted * bonus)
+ System.out.println("Your final score was " + finalScore);
+  }
+
+}
+ public static void calculateStore () {
+  
+  boolean gameOver = true;
+ int score = 800;
+ int levelCompleted = 5;
+ int bonus = 100;
+ int finalScore = score;
+
+ if (gameOver) {
+ finalScore += (levelCompleted * bonus)
+ finalScore += 1000;
+ System.out.println("Your final score was " + finalScore);
+ }
+ 
+  
+  
+ }
 }
