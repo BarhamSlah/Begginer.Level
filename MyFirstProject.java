@@ -473,16 +473,24 @@ the disadvantage with copying and pasting code is we are duplicating code that m
 
 /* Methods:take the code block to the next level and effectively allow us to reuse that code in many 
 places with the code written in just a single place so we type the code once and reuse it many time
+
 swdakany method : 1- reduce duplication code 
 2- datwane chand anjameky jyawazt bdate ba pey aw argumentay pey daday 
-All the code  between thr left and right curly braces is the called (method block ) & (method body) 
+
+All the code  between the left and right curly braces is the called (method block ) & (method body) 
 You can use any name for method & use lower camel case to name method
+
 jare tawk  mawayak bo nwsiny method (public static void) har bnwsa dwatr nawy method
 to execute the method we should be write a line of code that called invoking / called method 
 for simple method we just write the name of method that followed by ();
+
 when your color of method is changed from the light gray to normal black that mean your method 
 is used and that is not allowed to delete this method but if the color is light gray it is 
 normal to delete the method
+
+when you make method you use parameter that you write (datatype + varibale)
+
+when you call method you use arguments that you write (value or variable) 
 */
 
  boolean gameOver = true;
@@ -500,7 +508,7 @@ normal to delete the method
  */   
 
  // aw if-then sarawa delete dakay labar away esta la methodakaytr copyt krdwa la jyaty awayan danwsy 
-  calculateStore();   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
+  calculateStore(true, 800 , 5, 100);   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
  
  score = 10_000;
  levelCompleted = 8;
@@ -513,14 +521,16 @@ normal to delete the method
   }
 
 }
- public static void calculateStore () {
+ public static void calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
   
-  boolean gameOver = true;
+/*
+ boolean gameOver = true;
  int score = 800;
  int levelCompleted = 5;
  int bonus = 100;
  int finalScore = score;
-
+*/
+  
  if (gameOver) {
  finalScore += (levelCompleted * bonus)
  finalScore += 1000;
