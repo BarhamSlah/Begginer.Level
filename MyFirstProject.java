@@ -499,16 +499,13 @@ when you call method you use arguments that you write (value or variable)
  int bonus = 100;
  int finalScore = score;
  
-/*
  if (gameOver) {
  finalScore += (levelCompleted * bonus)
  finalScore += 1000;
  System.out.println("Your final score was " + finalScore);
  }  
- */   
-
- // aw if-then sarawa delete dakay labar away esta la methodakaytr copyt krdwa la jyaty awayan danwsy 
-  calculateStore(true, 800 , 5, 100);   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
+  
+ calculateStore(true, 800, 5, 100);   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
  
  score = 10_000;
  levelCompleted = 8;
@@ -523,14 +520,14 @@ when you call method you use arguments that you write (value or variable)
 }
  public static void calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
   
-/*
  boolean gameOver = true;
  int score = 800;
  int levelCompleted = 5;
  int bonus = 100;
- int finalScore = score;
-*/
+// lera datwany aw variableana delete bkay ba marjek agar patameter w argument bkay
   
+ int finalScore = score;
+
  if (gameOver) {
  finalScore += (levelCompleted * bonus)
  finalScore += 1000;
