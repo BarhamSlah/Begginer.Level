@@ -504,6 +504,15 @@ when you call method you use arguments that you write (value or variable)
  finalScore += 1000;
  System.out.println("Your final score was " + finalScore);
  }  
+
+ /* 
+ katek to la liney 496 ta 506 copy dakay w la methodakay tr copy dakay awa
+ 
+ tanha rstay IF delete dakay w la shweny if-statement call method danwsy
+ 
+ agar darey bochy awanay sarawa delete nakay awa nabet awan delete bkay chwnka awan pewista habn katek for more readability 
+ hata agar bchit parameter w argumentesh bkay har nabet chwnka awan datana
+ */
   
  calculateStore(true, 800, 5, 100);   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
  
