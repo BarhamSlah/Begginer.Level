@@ -510,6 +510,11 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  // katek to la liney 498 ta 508 delete dakay awa dabet call method bkay w parameter w argumentidh bkay 
   
  calculateStore(true, 800, 5, 100);   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
+
+ /* 
+ lera pewist nakat disan boolean gameOver = true; bnwsit agar darey chon bzanm har katek variable 2 agary habw bo nmwna : 
+ (off/on) & (true/false) & (pass/fail) awa pewist nakat 2 jar binwsy
+ */
  
  score = 10_000;
  levelCompleted = 8;
