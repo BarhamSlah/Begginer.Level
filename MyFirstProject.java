@@ -491,6 +491,8 @@ normal to delete the method
 when you make method you use parameter that you write (datatype + varibale)
 
 when you call method you use arguments that you write (value or variable) 
+
+when you delete the variables , you should be make a ( Parameter & Arguments ) 
 */
 
  boolean gameOver = true;
@@ -505,7 +507,7 @@ when you call method you use arguments that you write (value or variable)
  System.out.println("Your final score was " + finalScore);
  }  
 
- /* 
+  /* 
  katek to la liney 496 ta 506 copy dakay w la methodakay tr copy dakay awa
  
  tanha rstay IF delete dakay w la shweny if-statement call method danwsy
