@@ -507,14 +507,7 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  System.out.println("Your final score was " + finalScore);
  }  
 
-  /* 
- katek to la liney 496 ta 506 copy dakay w la methodakay tr copy dakay awa
- 
- tanha rstay IF delete dakay w la shweny if-statement call method danwsy
- 
- agar darey bochy awanay sarawa delete nakay awa nabet awan delete bkay chwnka awan pewista habn katek for more readability 
- hata agar bchit parameter w argumentesh bkay har nabet chwnka awan datana
- */
+ // katek to la liney 498 ta 508 delete dakay awa dabet call method bkay w parameter w argumentidh bkay 
   
  calculateStore(true, 800, 5, 100);   // la katy run krdn katek dagata call method dachet methodaka run dakat awja pashan detawa pash call method run daka
  
@@ -528,6 +521,10 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  System.out.println("Your final score was " + finalScore);
   }
 
+// disan katek la liney 514 ta 522 delete dakay awa dabet call method bkay w parameter w arguments bkay 
+
+ calculateStore(true, 10_000, 8, 200);
+ 
 }
  public static void calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
   
