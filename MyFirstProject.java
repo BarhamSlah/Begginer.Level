@@ -526,7 +526,17 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  System.out.println("Your final score was " + finalScore);
   }
 
+
 // disan katek la liney 514 ta 522 delete dakay awa dabet call method bkay w parameter w arguments bkay 
+
+// agar darey la hamw katek if-statement delete dakay awa tanha la 1 hallat nabet awish ( check null or wrong data ) 
+ 
+/* agar daleit la bry if bo hich nanwsin awa am 2 xalla dabeta wallam 
+
+1- agar jory datatypey method (void) bw awa hich nanwsy 
+ 
+2- agat apart from void bw awa method = variable
+ */
 
  calculateStore(true, 10_000, 8, 200);
  
