@@ -525,9 +525,8 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  finalScore += (levelCompleted * bonus)
  System.out.println("Your final score was " + finalScore);
   }
+// disan katek la liney 514 ta 522 delete dakay awa dabet call method bkay w parameter w arguments bkay
 
-
-// disan katek la liney 514 ta 522 delete dakay awa dabet call method bkay w parameter w arguments bkay 
 
 // agar darey la hamw katek if-statement delete dakay awa tanha la 1 hallat nabet awish ( check null or wrong data ) 
  
