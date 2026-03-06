@@ -564,7 +564,11 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  katek void bakar naheny awa dabet 2 sht anjam bday awish : 1- la jyat void nawy aw datatypea bnwsy ka datawe
  2- return statement bnwsy
 
- the most common place to return place is before the right curly brace 
+ the most common place to return statement is before the right curly brace 
+
+ the most common usage of return statement is to return a value back from a method
+
+ if you used void return statement is not required but if you not use void it is required 
  
 
  */
