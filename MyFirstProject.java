@@ -575,7 +575,7 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  the most common place to return statement is before the right curly brace 
 
  if you used void return statement is not required but if you not use void it is required 
- 
+ but also you can use return statement when you use void to stop method 
 
  */
   
