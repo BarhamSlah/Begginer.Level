@@ -564,9 +564,15 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  katek void bakar naheny awa dabet 2 sht anjam bday awish : 1- la jyat void nawy aw datatypea bnwsy ka datawe
  2- return statement bnwsy
 
- the most common place to return statement is before the right curly brace 
+ return statement is used for : 1- return value   2- stop method 
+ agar void bet awa tanha bo stop method bakar det 
+ agar primivate datatype bet awa bo hardwky bakar det wa hamisha pekawa bakar det 
 
- the most common usage of return statement is to return a value back from a method
+ agar darey chon bzanm stop method dakat awa dabet yakek law marjay tedabet awja 
+ 1- agar lanaw if-statement bakar net harka gaishta return statement awa stop dabet ba har codeytr la dway habet 
+ 2- agar lanaw if-statement bakar bet dabet conditionaka true bet awja stop dabet 
+
+ the most common place to return statement is before the right curly brace 
 
  if you used void return statement is not required but if you not use void it is required 
  
