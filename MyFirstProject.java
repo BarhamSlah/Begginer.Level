@@ -555,7 +555,19 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  finalScore += 1000;
  System.out.println("Your final score was " + finalScore);
  }
+
+ /* 
+ the void meaning no data return from the method 
  
+ aw shtanay la jyat void bakare det tanha primivate datatypen chwnka to declare method dakay wak chon delare variable dakay 
+
+ katek void bakar naheny awa dabet 2 sht anjam bday awish : 1- la jyat void nawy aw datatypea bnwsy ka datawe
+ 2- return statement bnwsy
+
+ the most common place to return place is before the right curly brace 
+ 
+
+ */
   
   
  }
