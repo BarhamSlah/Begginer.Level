@@ -577,8 +577,37 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
  if you used void return statement is not required but if you not use void it is required 
  but also you can use return statement when you use void to stop method 
 
+katek return statement danwsy awa dabet yakek law 3 shta anjam bday : 
+
+1- variable = call method   // you should use the same datatype that used to declare method
+
+2- use call method in a expression  // you should use the same datatype that used to declare method
+
+3- System.out.println( call method )
+ 
+
+ 
+
  */
+
+ int highScore =  calculateStore(true, 800, 5, 100);
+ System.out.println(highScore);
+
+ calculateStore(true, 10_000, 8, 200);  
+  
+   /* labar away lera dwam jara calculateScore nwsrawa wa hichy le nakrawa 
+  watta la 3 shtaka boya ignore dakrewt */
   
   
+
+ public static int calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
+
+    if (gameOver) {
+ finalScore += (levelCompleted * bonus)
+ finalScore += 1000;
+ System.out.println("Your final score was " + finalScore);
+ }
+
+  return finalScore;
  }
 }
