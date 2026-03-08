@@ -584,22 +584,17 @@ katek return statement danwsy awa dabet yakek law 3 shta anjam bday :
 2- use call method in a expression  // you should use the same datatype that used to declare method
 
 3- System.out.println( call method )
- 
-
- 
-
  */
 
- int highScore =  calculateStore(true, 800, 5, 100);
+ int highScore = calculateStore(true, 800, 5, 100);
  System.out.println(highScore);
 
- calculateStore(true, 10_000, 8, 200);  
-  
-   /* labar away lera dwam jara calculateScore nwsrawa wa hichy le nakrawa 
+System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 200));  
+
+  calculateStore(true, 800, 5, 100);
+   /* labar away lera bo yakam jar nya calculateScore nwsrawa wa hichy le nakrawa 
   watta la 3 shtaka boya ignore dakrewt */
   
-  
-
  public static int calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
 
     if (gameOver) {
@@ -608,6 +603,6 @@ katek return statement danwsy awa dabet yakek law 3 shta anjam bday :
  System.out.println("Your final score was " + finalScore);
  }
 
-  return finalScore;
+  return finalScore;   // agar daley chon bzanm ka nawy kama variable bnwsm awa kama variable anjamy kotayi hallgrt bw nawy aw bnwsa 
  }
 }
