@@ -534,7 +534,8 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
 
 1- agar jory datatypey method (void) bw awa hich nanwsy 
  
-2- agat apart from void bw awa method = variable
+2- agar apart from void bw awa method = variable la katy call method wa for instance:
+int sum = calculateStore(); agar darey aw (int) la che har awa method ba ch declare kra bw awy danwsy 
  */
 
  calculateStore(true, 10_000, 8, 200);
