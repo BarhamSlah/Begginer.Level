@@ -607,3 +607,21 @@ System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 20
   return finalScore;   // agar daley chon bzanm ka nawy kama variable bnwsm awa kama variable anjamy kotayi hallgrt bw nawy aw bnwsa 
  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
