@@ -618,14 +618,15 @@ ballam la java method = function ballam method zyatr bakar det nak funtion */
 
 if (age > 18) {
 
- return ; 
+ return;   // agar hich valuek nanwsra bw awa tanha bo void rasta
 }
 // Do more stuff here 
 
 /* lera daprsy aw codea chya ? 
 agar age la +18 bw awa condition = true w dacheta sar return boya codeanaknytr ingnore dakret  
 ballam agar -18 bw awa condition = false boya nacheta sar return w dacheta sar awanytr */
- 
+
+
 
 
 
