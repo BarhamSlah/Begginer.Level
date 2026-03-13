@@ -608,11 +608,20 @@ System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 20
  }
 }
 
+ /* public : datwanre la hamw shwenek bang bkret
+  static : pewist nakat object drwst bkret
+ dabet (String [] args) bnwsit agar main bw */
 
+if (age > 18) {
 
+ return ; 
+}
+// Do more stuff here 
 
-
-
+/* lera daprsy aw codea chya ? 
+agar age la +18 bw awa condition = true w dacheta sar return boya codeanaknytr ingnore dakret  
+ballam agar -18 bw awa condition = false boya nacheta sar return w dacheta sar awanytr */
+ 
 
 
 
