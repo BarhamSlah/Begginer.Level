@@ -608,6 +608,10 @@ System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 20
  }
 }
 
+/* method agar value bgaretawa = function 
+method agar value nagaretawa = procedure
+ballam la java method = function ballam method zyatr bakar det nak funtion */
+ 
  /* public : datwanre la hamw shwenek bang bkret
   static : pewist nakat object drwst bkret
  dabet (String [] args) bnwsit agar main bw */
