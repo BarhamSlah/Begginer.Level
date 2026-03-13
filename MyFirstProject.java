@@ -626,13 +626,22 @@ if (age > 18) {
 agar age la +18 bw awa condition = true w dacheta sar return boya codeanaknytr ingnore dakret  
 ballam agar -18 bw awa condition = false boya nacheta sar return w dacheta sar awanytr */
 
+public static void ageOfClient (int age) {  // la katy call method xot valuey age dadaney 
+boolean result = false;  // agar awya ba true daney aw kat hamw katek true dabet
+if (age > 18 ) {
+ result = true;
+}
+return result;
+}
 
+boolean result = true;
+if (age > 18) {
+ return false;
+}
+return result;
+}
 
-
-
-
-
-
+// hardkw tawawa boya kama bnwsy tawawa
 
 
 
