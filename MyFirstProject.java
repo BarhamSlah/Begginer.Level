@@ -539,7 +539,7 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
 int sum = calculateStore(); agar darey aw (int) la che har awa method ba ch declare kra bw awy danwsy 
 
 agar darey chon bzanm method ba ch declare bkam awa agar :
-
+watta away la pash return dainwsy kam lamanay xwarawaya
 
 1 - return nabw watta tanha nwsin bw be return awa void 
 
