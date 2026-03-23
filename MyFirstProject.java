@@ -1,8 +1,9 @@
 public class MyFirstProject {
 public static void main (String [] args){  // am linea  taybata ba dast be krdny program
  
-System.out.println("barham"); // har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
-
+System.out.println("barham"); /* har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
+ballam agar text nabw awa datwnay " nanwsy tanha shtaka bnwsy  */
+ 
  int myvalue = 5;
  System.out.println("myvalue");
   System.out.println(myvalue);
