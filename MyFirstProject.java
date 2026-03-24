@@ -528,7 +528,6 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
   }
 // disan katek la liney 514 ta 522 delete dakay awa dabet call method bkay w parameter w arguments bkay
 
-
 // agar darey la hamw katek if-statement delete dakay awa tanha la 1 hallat nabet awish ( check null or wrong data ) 
  
 /* agar daleit la bry if bo hich nanwsin awa am 2 xalla dabeta wallam 
@@ -538,7 +537,16 @@ when you delete the variables , you should be make a ( Parameter & Arguments )
 2- agar apart from void bw awa call method = variable la katy call method wa for instance:
 int sum = calculateStore(); agar darey aw (int) la che har awa method ba ch declare kra bw awy danwsy 
 
-agar darey chon bzanm method ba ch declare bkam awa agar :
+katek return statement danwsy awa dabet yakek law 3 shta anjam bday : 
+
+1- variable = call method   // (dabet yan haman datatype bet)  yan (rangey datatypey variable > rangey datatypey call method)
+
+2- use call method in a expression  // you should use the same datatype that used to declare method
+
+3- System.out.println( call method )  */
+ 
+ 
+  /* agar darey chon bzanm method ba ch declare bkam awa agar :
 watta away la pash return dainwsy kam lamanay xwarawaya
 
 1 - return nabw watta tanha nwsin bw be return awa void 
@@ -549,8 +557,7 @@ watta away la pash return dainwsy kam lamanay xwarawaya
 
 4 - agar false w true bw awa boolean 
 
-5 - agar bo nmnwa nawy variable bw awa bzana aw variablea ba chy declare krawa 
- */
+5 - agar bo nmnwa nawy variable bw awa bzana aw variablea ba chy declare krawa */
 
  calculateStore(true, 10_000, 8, 200);
  
@@ -595,13 +602,6 @@ watta away la pash return dainwsy kam lamanay xwarawaya
  but also you can use return statement when you use void to stop method 
 
 katek return statement danwsy awa dabet yakek law 3 shta anjam bday : 
-
-1- variable = call method   // you should use the same datatype that used to declare method
-
-2- use call method in a expression  // you should use the same datatype that used to declare method
-
-3- System.out.println( call method )
- */
 
  int highScore = calculateStore(true, 800, 5, 100);
  System.out.println(highScore);
