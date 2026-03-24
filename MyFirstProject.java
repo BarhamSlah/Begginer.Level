@@ -580,13 +580,13 @@ watta away la pash return dainwsy kam lamanay xwarawaya
  2- return statement bnwsy
 
  return statement is used for : 1- return value   2- stop method 
- agar void bet awa tanha bo stop method bakar det awish la koytayi
+ agar void bet awa tanha bo stop method bakar det awish la koytayi chwnaka agar la nawarast bet codey try ladwa bet awaq erorr dada
  tanha la yak kat la nawarast bakar det agar lanaw if-statement bakary beny 
 
  agar primivate datatype bet awa bo hardwky bakar det wa hamisha pekawa bakar det 
 
  agar darey chon bzanm stop method dakat awa dabet yakek law marjay tedabet awja 
- 1- agar lanaw if-statement bakar net harka gaishta return statement awa stop dabet ba har codeytr la dway habet 
+ 1- agar lanaw if-statement bakar net harka gaishta return statement awa stop dabet 
  2- agar lanaw if-statement bakar bet dabet conditionaka true bet awja stop dabet 
 
  the most common place to return statement is before the right curly brace 
