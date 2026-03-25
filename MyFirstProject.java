@@ -628,9 +628,13 @@ if (age > 18) {
 
  return;   // agar hich valuek nanwsra bw awa tanha bo void rasta
 }
-// Do more stuff here 
+// lera aw codeana danwsy ka agar age -18 bw chwnka condition false bet awa daraway if-staetment run dabet 
 
-/* lera daprsy aw codea chya ? 
+if (age > 18) return;  // datwany bam sheway bnwsy agar tanha yak line codet habw lanaw if-statement
+
+/* swdy am codea chya ? agar am conditiona false bw awa method radawaste 
+
+ lera daprsy aw codea chya ? 
 agar age la +18 bw awa condition = true w dacheta sar return boya codeanaknytr ingnore dakret  
 ballam agar -18 bw awa condition = false boya nacheta sar return w dacheta sar awanytr */
 
@@ -650,3 +654,4 @@ return result;
 }
 
 // hardkw tawawa boya kama bnwsy tawawa
+551118879
