@@ -603,14 +603,15 @@ watta away la pash return dainwsy kam lamanay xwarawaya
 
 katek return statement danwsy awa dabet yakek law 3 shta anjam bday : 
 
- int highScore = calculateStore(true, 800, 5, 100);
+ int highScore = calculateStore(true, 800, 5, 100);  // create variable
  System.out.println(highScore);
 
-System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 200));  
+System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 200));  // create expression
 
+System.out.println(calculateStore(true, 10_000, 8, 200));   // create sout
+ 
   calculateStore(true, 800, 5, 100);
-   /* labar away lera bo yakam jar nya calculateScore nwsrawa wa hichy le nakrawa 
-  watta la 3 shtaka boya ignore dakrewt */
+   /* labar away lera calculateScore hichy le nakrawawatta la 3 shtaka boya ignore dakret */
   
  public static int calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
 
