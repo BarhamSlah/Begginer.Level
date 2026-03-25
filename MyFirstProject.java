@@ -566,10 +566,11 @@ watta away la pash return dainwsy kam lamanay xwarawaya
 }
  public static void calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
   
- boolean gameOver = true;
+ /* boolean gameOver = true;
  int score = 800;
  int levelCompleted = 5;
- int bonus = 100;
+ int bonus = 100;  */
+  
 // lera datwany aw variableana delete bkay ba marjek agar patameter w argument bkay
   
  int finalScore = score;
@@ -601,7 +602,7 @@ watta away la pash return dainwsy kam lamanay xwarawaya
  the most common place to return statement is before the right curly brace 
 
  if you used void return statement is not required but if you not use void it is required 
- but also you can use return statement when you use void to stop method 
+ but also you can use return statement when you use void to stop method */
 
  public static int calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
 
@@ -617,7 +618,7 @@ watta away la pash return dainwsy kam lamanay xwarawaya
 
 /* method agar value bgaretawa = function 
 method agar value nagaretawa = procedure
-ballam la java method = function ballam method zyatr bakar det nak funtion */
+ballam la java method = function ballam nawy method zyatr bakar det nak funtion */
  
  /* public : datwanre la hamw shwenek bang bkret
   static : pewist nakat object drwst bkret
