@@ -654,4 +654,3 @@ return result;
 }
 
 // hardkw tawawa boya kama bnwsy tawawa
-551118879
