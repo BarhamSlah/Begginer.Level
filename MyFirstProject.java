@@ -541,11 +541,13 @@ katek return statement danwsy awa dabet yakek law 3 shta anjam bday :
 
 1- variable = call method   // (dabet yan haman datatype bet)  yan (rangey datatypey variable > rangey datatypey call method)
 
-2- use call method in a expression  // you should use the same datatype that used to declare method
+2- use call method in a expression 
 
 3- System.out.println( call method )  */
- 
- 
+
+   calculateStore(true, 800, 5, 100);
+   /* labar away lera calculateScore hichy le nakrawawatta la 3 shtaka boya ignore dakret */
+  
   /* agar darey chon bzanm method ba ch declare bkam awa agar :
 watta away la pash return dainwsy kam lamanay xwarawaya
 
@@ -601,18 +603,6 @@ watta away la pash return dainwsy kam lamanay xwarawaya
  if you used void return statement is not required but if you not use void it is required 
  but also you can use return statement when you use void to stop method 
 
-katek return statement danwsy awa dabet yakek law 3 shta anjam bday : 
-
- int highScore = calculateStore(true, 800, 5, 100);  // create variable
- System.out.println(highScore);
-
-System.out.println("this is next highScore" + calculateStore(true, 10_000, 8, 200));  // create expression
-
-System.out.println(calculateStore(true, 10_000, 8, 200));   // create sout
- 
-  calculateStore(true, 800, 5, 100);
-   /* labar away lera calculateScore hichy le nakrawawatta la 3 shtaka boya ignore dakret */
-  
  public static int calculateStore (boolean gameOver, int score, int levelCompleted , int bonus  ) {
 
     if (gameOver) {
@@ -659,9 +649,3 @@ return result;
 }
 
 // hardkw tawawa boya kama bnwsy tawawa
-
-
-
-
-
- 
