@@ -51,5 +51,41 @@ boolean isCar = false;
         System.out.println(a + " " + b); //20 26
         ballam nabet aw double quote la la kotaye dabney 
 */
+
+boolean gameOver = true;
+int score = 1000;
+int levelCompleted = 5;
+ int bouns = 200;
+ int finalScore = (score + bouns);
+ if (gameOver) {
+  finalScore += (levelCompleted * finalScore);
+  System.out.println(" Your final score = " + finalScore );
+ }
+ 
+// esta dabe haman codey liney (263 ta 272) be away ka hich dastkary bkay  ballam ba shewazek ka btwany hamw shewazakan la haman method bn 
+// ba 2 shewaz datwany ka aw codea bnwsy be  away edit bo codea asllyaka bkay awish 
+ /*
+ 1 _ nawy variable  bgory 
+ 2 _  datatype rashbkayawa 
+ */
+
+int secondScore = 1000;
+int secondLevelCompleted = 5;
+ int secondBouns = 200;
+ int secondFinalScore = (secondScore + secondBouns);
+ if (gameOver) {
+  secondFinalScore = (secondLevelCompleted * secondFinalScore);   //here 
+  System.out.println(" Your final score = " + secondFinalScore );
+ } 
+ 
+ secondScore = 1000;
+ secondLevelCompleted = 5;
+ secondBouns = 200;
+ secondFinalScore = (secondScore + secondBouns);
+ if (gameOver) {
+  secondFinalScore = (secondLevelCompleted * secondFinalScore);  // here 
+  System.out.println(" Your final score = " + secondFinalScore );
+ } 
+ 
   }
 }
