@@ -255,9 +255,9 @@ int A = 4;
  B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
  System.out.println(B);
 
- // from now on the  intellij begin 
+ // from now on intellij begin 
  /*
-bash nya la katy nwsyni Address w project space bakar bet labar bwny kesha w vairous la hande OP
+bash nya la katy nwsyni Address w project space bakar bet labar bwny kesha w vairous la hande OS
 Upper w Lower bakardet katek 
 1 _ natwanit space bakar benit watta bo more readable
 2 _ agar la teamek kar bkait hamw dazann ka (user) variablea ballam (User) classa
