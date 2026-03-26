@@ -253,5 +253,8 @@ int A = 4;
  System.out.println(A);    // lam shewaya wakw awa waya bnwsre A = (int) A + 2.5;
 
  int B = 5;
+ B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
+ System.out.println(B);
+  
   }
 }
