@@ -21,7 +21,7 @@ You can use any name for method & use lower camel case to name method
 to execute the method we should be write a line of code that called invoking / called method 
 for simple method we just write the name of method that followed by ();
 
-when your color of method is changed from the light gray to normal black that mean your method 
+when your color of call method is changed from the light gray to normal black that mean your method 
 is used and that is not allowed to delete this method but if the color is light gray it is 
 normal to delete the method
 
@@ -29,7 +29,7 @@ when you make method you use parameter that you write (datatype + varibale)
 
 when you call method you use arguments that you write (value or variable) 
 
-when you delete the variables , you should be make a ( Parameter & Arguments ) 
+ you should be make a ( Parameter & Arguments ) , when you delete the variables  
 */
 
  boolean gameOver = true;
