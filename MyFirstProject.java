@@ -653,4 +653,47 @@ if (age > 18) {
 return result;
 }
 
-// hardkw tawawa boya kama bnwsy tawawa
+// hardkw tawawa boya kama bnwsy tawawa      wwwwwweeeeeeee stop here
+
+
+public class MethodChallenge {
+
+    public static void main(String[] args) {
+        // بانگکردنی میتۆدەکان بۆ تاقیکردنەوەی ئەنجامەکان
+        int highScorePosition = calculateHighScorePosition(1500);
+        displayHighScorePosition("Tim", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("Bob", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(500);
+        displayHighScorePosition("Percy", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(100);
+        displayHighScorePosition("Gilbert", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(25);
+        displayHighScorePosition("James", highScorePosition);
+    }
+
+    // میتۆدی یەکەم: بۆ پیشاندانی ئەنجامەکە
+    public static void displayHighScorePosition(String playerName, int highScorePosition) {
+        System.out.println(playerName + " managed to get into position "
+                + highScorePosition + " on the high score list");
+    }
+
+    // میتۆدی دووەم: بۆ دیاریکردنی پلەی یاریزانەکە بەپێی سکۆرەکەی
+    public static int calculateHighScorePosition(int playerScore) {
+        int position = 4; // بە شێوەی دیفۆڵت دامانناوە ٤
+
+        if (playerScore >= 1000) {
+            position = 1;
+        } else if (playerScore >= 500) {
+            position = 2;
+        } else if (playerScore >= 100) {
+            position = 3;
+        }
+
+        return position;
+    }
+}
