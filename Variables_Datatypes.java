@@ -22,6 +22,7 @@ int myFirstNumber = 1;
  hamw primivate datatypek keyworda ballam hamw keywordek primivate datatype nya
  nabet nawy datatype la variable bnein
  */
+   
 
   /*
   non primivate datatype ( Reference types ) : aw jora datatypenan ka la layan programmar dadanre,
@@ -30,13 +31,13 @@ int myFirstNumber = 1;
   */
 
   /* The ranges of primivate-datatype : 
-  Byte : ( -128 to 127 ) 
-  Short : ( -32_768 to 32_767 )
-  Int : ( -2_147_483_648 to 2_147_483_647 )
-  Float : ( 1.4 * 10^-45 to 3.4 * 10^38 )
-  Double : ( 4.9 * 10^-324 to 1.79 * 10^308)
-  Char : ( 0 to 65_535) 
-  Long : ( -9_223_372_036_854_775_808 to 9_223_372_036_854_775_807 )
+  Byte : ( -128 to 127 )  + 8 bit 
+  Short : ( -32_768 to 32_767 ) + 16 bit
+  Int : ( -2_147_483_648 to 2_147_483_647 ) + 32 bit
+  Float : ( 1.4 * 10^-45 to 3.4 * 10^38 ) + 32 bit
+  Double : ( 4.9 * 10^-324 to 1.79 * 10^308) + 64 bit  
+  Char : ( 0 to 65_535)  + 16 bit
+  Long : ( -9_223_372_036_854_775_808 to 9_223_372_036_854_775_807 ) + 64 bit
   */
   
 int myValue = 10;
