@@ -12,6 +12,8 @@ int myFirstNumber = 1;
  int mySecondNumber = 10;
  int myThirdNumber = 100;
  System.out.println(" Hello world ");
+
+System.out.println(" \"hello World\" ");     // the output is Hello World
  
  /var   // variablea kant ba  list dadate ba pey rez bandy 
  /list  // hamw aw codeanat dadate ka nwsiwta ba pey rez bandy 
