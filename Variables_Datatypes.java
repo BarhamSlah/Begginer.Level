@@ -258,6 +258,20 @@ int A = 4;
  int B = 5;
  B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
  System.out.println(B);
+
+  /*
+
+\"  print double quote
+\'  print single quote
+\\  print backslash
+\t  make a space as much as tab
+\r  make the cursor go to the beginning     System.out.println(" ABC \r  D   ")  the ouput is D
+
+
+
+
+
+  */
   
   }
 }
