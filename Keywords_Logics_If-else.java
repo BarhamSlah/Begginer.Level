@@ -71,5 +71,26 @@ boolean isStudent = false;
   System.out.println(" this is not the student ");
  }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
 
+
+String day = "one";
+
+ switch (day) {
+
+   case "one":
+     System.out.println("Saturday");
+     break;
+   case "one":
+     System.out.println("sunday");
+     break;
+   default "one":
+     System.out.println("Monday");
+     break;
+   
+
+   
+   
+ }
+ 
+
 }
 }
