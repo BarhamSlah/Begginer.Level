@@ -53,6 +53,21 @@ if(highScore > 100) {
 highScore = 1000 + highScore;
 System.out.println("this is your score by adding bonus");
 } 
+
+   
+        int number = 0;
+        
+        String result = number==0 ?"The Number Is Zero" : number>0 ? "The Number Is Possitive" : "The Number Is Negative";
+        System.out.println(result);
+    }
+    
+}
+
+
+
+
+
+
  
 }
 }
