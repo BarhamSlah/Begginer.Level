@@ -168,6 +168,7 @@ double B = 5D;
 double C = 5d;
 double D = 4.00/2;
 double E = 4d/2;
+// katek decimal number danwsy awa shtek bka ka farqy habet lagall integer number ja d / D / .0 / .00 danwsy kesha nya 
 
 float A = 3f;
 float E = 3.25f;
