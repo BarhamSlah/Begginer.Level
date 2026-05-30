@@ -19,7 +19,7 @@ System.out.println(" \"hello \" world ");     // the output is " hello " world
  /list  // hamw aw codeanat dadate ka nwsiwta ba pey rez bandy 
 
  /*
- primivate datatype : aw jora datatypenan ka lanaw zmanakan hana , qabarayan dyari kraw nya
+ primivate datatype : aw jora datatypenan ka lanaw zmanakan hana , qabarayan dyari krawa
  ( byte , short , int , long , float , double , boolean , char )
  hamw primivate datatypek keyworda ballam hamw keywordek primivate datatype nya
  nabet nawy datatype la variable bnein
@@ -43,13 +43,15 @@ System.out.println(" \"hello \" world ");     // the output is " hello " world
   */
   
 int myValue = 10;
-myvalue = 10;   /* lera boman dardakawe ka agar jarashka aw variablea declare bkain awa pewist naka disan nawy datatype bnwsy aw qsa 
+myvalue = 1;   /* lera boman dardakawe ka agar jarashka aw variablea declare bkain awa pewist naka disan nawy datatype bnwsy aw qsa 
 jora datatypek rasta nak bo joreky dyari kraw */
 
  /* datatype 2 jory haya  1-primivate datatype   2- non primivate datatype 
  hamw jorakany primivate datatype overflow w underflow yan haya tanha boolean nabet 
  ballam non primivate datatype hichyan underflow w overflowyan nya */
- 
+ myFirstNumber = 1;
+ mySecondNumber = 2;
+ mythirdNumber = 3; 
  int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
 System.out.println(myTotal);
  
@@ -59,24 +61,32 @@ myFirstNumber = myFirstNumber + 5;
  myFirstNumber = 6;
 System.out.println(myFirstNumber);
 
-/*ba 2 shewaz datwanin kamtrin valuey datatpyeaka bzanin awa bo hanw jora dataypek dabet kamat wist nawakay bnwsa
+/* ba 2 shewaz datwanin kamtrin valuey datatpyeaka bzanin awa bo hanw jora dataypek dabet kamat wist nawakay bnwsa
 harwaha datwanin haman code bo zanini gawratrin valuey datatype bakarbenin ba gorini Mimiimum bo Maximum
 int minValue = Integer.MAX_VALUE;
  System.out.println(" Integer Maximum Value = " + minValue);
  System.out.println(" Integer Maximum Value = " + Integer.MAX_VALUE);
 
 int myValue = 1_000_000; //this is true 
- int myVlaue = 1,000,000; //this is false
+ int myVlaue = 1,000,000; //this is false  */
  
-int minIntValue = 2_147_483_647;
- System.out.println(" Busted Max Value = " + (maxIntValue + 1));
+         int minValue = Integer.MIN_VALUE;
+         System.out.println("Integer minimum value = " + Integer.MIN_VALUE);
 
-int minIntValue = -2_147_483_648;
-System.out.println( " Busted Min Value = " + (minIntValue - 1));
+         int maxValue = Integer.MAX_VALUE;
+         System.out.println("Integer maximum value = " + Integer.MAX_VALUE);
+
+         int overFlow = maxValue+1;
+         System.out.println("Integer's overflow = " +  overFlow);
+
+         int underFlow = minValue-1;
+         System.out.println("Integer's underflow = " +  underFlow);
+  
 
 System.out.println(" Integer Value Range ("+ Integer.MIN_VALUE + " to " + Integer.MAX_VALUE +")");
  System.out.println(" Short Value Range ("+ Short.MIN_VALUE + " to " + Short.MAX_VALUE +")");
 
+  
 System.out.println(" A Integer has a width of " + Integer.SIZE);
 
 long longValue = 2_147_483_647;    // labar away la range integer darnachwa loya pewist ba (L) nakat
