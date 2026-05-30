@@ -87,7 +87,7 @@ System.out.println(" Integer Value Range ("+ Integer.MIN_VALUE + " to " + Intege
  System.out.println(" Short Value Range ("+ Short.MIN_VALUE + " to " + Short.MAX_VALUE +")");
 
   
-System.out.println(" A Integer has a width of " + Integer.SIZE);
+     System.out.println("a long has width of " + Long.SIZE + " bit");
 
 long longValue = 2_147_483_647;    // labar away la range integer darnachwa loya pewist ba (L) nakat
 long largeValue = 2_147_483_647_444L;   // awja dakre L yan l bet kesha nya
