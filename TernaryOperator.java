@@ -1,7 +1,7 @@
 /* here terenary operator is begin
 ternary operator (conditonal operator) only operator in java has 3 operand
 operand 1 ? operand 2 : operand 3  // operand 1 hamisha dabet boolean bet operand 2,3 hamisha haman jor bn ballam boolean nabn 
-ama habn manay awaya ka  booleana ( < , > , =< , >= , != , == )
+ama habn manay awaya ka  booleana ( < , > , =< , >= , != , == ) ya7ni arithmetic operator
 aw conditionay la operand 1 haya agar true bet O2 run dabet agar false bet O3 run dabet watta pash away 
 zanit conditionaka true yan falsea chy di esht ba conditionaka nabet 
 if bakarbena agar true w false bw chwnka agar wanakay awa rastawxo sout print dabet w awanytr karigary nabet
