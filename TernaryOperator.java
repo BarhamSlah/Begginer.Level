@@ -25,11 +25,11 @@ if bakarbena agar true w false bw chwnka agar wanakay awa rastawxo sout print da
   System.out.println(" Toyota is your car");
  }
 
- String carModel = (isDomestic) ? "this is your car" : "this is not your car";
+ String yourCar =  (isDomestic) ? "this is your car" : "this is not your car";
  System.out.println( carModel );
 
 int stopWatch = 20;
- string oclock = stopWatch == 20 ? "late" : "early";
+ string oclock = (stopWatch >= 20) ? "late" : "early";
  System.out.println(oclock);
 
   double firstValue = 20.00;
