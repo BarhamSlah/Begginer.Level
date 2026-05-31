@@ -36,7 +36,7 @@ int stopWatch = 20;
  double secondValue = 80.00;
  double sum = (firstValue + secondValue) * 100.00 ;
  double theRemainder = sum % 40;
- String text = (theRemainder == 0) ? "true" : "false";
+ String text = (theRemainder == 0) ? "We Have No Remainder" : "We Have Remainder";
  System.out.println(text);
 
  double A = 200.00;
