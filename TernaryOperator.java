@@ -1,6 +1,3 @@
-public static TernaryOperator {
-public static void main (String [] args) {
-
 /* here terenary operator is begin
 ternary operator (conditonal operator) only operator in java has 3 operand
 operand 1 ? operand 2 : operand 3  // operand 1 hamisha dabet boolean bet operand 2,3 hamisha haman jor bn ballam boolean nabn 
@@ -59,15 +56,3 @@ System.out.println("this is your score by adding bonus");
         
         String result = number==0 ?"The Number Is Zero" : number>0 ? "The Number Is Possitive" : "The Number Is Negative";
         System.out.println(result);
-    }
-    
-}
-
-
-
-
-
-
- 
-}
-}
