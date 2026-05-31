@@ -1,8 +1,5 @@
-public static Keywords_Logics_If-else {
-public static void main (String [] args) {
-
 /*
-In Java we have 51 keywords by the time you leann it throughout the course 
+In Java we have 51 keywords by the time you learn it throughout the course 
 You can`t use the keywords to variables for instance :
 int double = 2; // this is false
 int double2 = 2;  // this  is  true
@@ -18,19 +15,20 @@ Now we talk about rules for naming variables called (Identifiers):
 int highScore = 100;
 int health = 200;
  if ((highScore > 50) && (health > 150)) {  
-highScore = highScore - 10;
- health = health - 20;
+highScore -=10;
+ health  -=20;
  System.out.println(health + highScore);     // anjamy health w highScore kodakretawa watta dabeta 270
  }
 
 /* awa 5 shta sar ba if-statementa ( if , { , } , ( , ) 
-expression : 1 - health > 150
+expression :
+1 - health > 150
 2 - highScore > 50
 3 - (highScore > 50) && (health > 150)
-4 - highScore = highScore - 10;
-5 - highScore - 10
-6 - health = health - 20;
-7 - health - 20
+4 - highScore -=10;
+5 - highScore = 10
+6 - health -=20;
+7 - health = 20
 */
  
  /*
@@ -85,12 +83,32 @@ String day = "one";
    default "one":
      System.out.println("Monday");
      break;
-   
 
-   
-   
- }
- 
 
-}
-}
+
+        int myValue = 10;
+
+        switch (myValue) {
+
+            case 10:
+                System.out.println("Your Value Is Ten");
+                break;
+
+            case 20:
+                System.out.println("Your Value Is Twenty");
+                break;
+
+            case 30:
+                System.out.println("Your Value Is Thirty");
+                break;
+
+            default:
+                System.out.println("Your Value Is Not Ten or Twenty or Thirty");
+
+
+          /*
+          
+
+          
+         */
+        }
