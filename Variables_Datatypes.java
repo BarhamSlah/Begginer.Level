@@ -240,7 +240,7 @@ String myString = " I wish i had \u00241_000_000 ";  // when symbols arent avail
 
 int newResult = 3;
 int oldResult = newResult;
-newResult = newResult - 1;  //esta valuey oldfresult  = 3 watta hich gorankary basar naya ballam oldResult = 2
+newResult = newResult - 1;  //esta valuey oldresult = 3 watta hich gorankary basar naya ballam newResult = 2
  
 // Remaider operator = modulus = modulo = mod = % 
 // katek / bakar daheny awa anjamt dadate ballam katek % bakar daheny awa mawat dadate
