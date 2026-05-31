@@ -33,10 +33,11 @@ boolean isCar = true;
   System.out.println(" this is your car ");
 
 boolean isCar = false;
- if (isCar = true)   // lerada hsab bo daraway kawana nakre labar away to nrxy variablet gory w tanha la boolean datwany 1 (=) dabney lanaw kawana watta assignment bkay nak comparasion  
+ if (isCar = true)   /* lerada hsab bo daraway kawana nakre labar away to nrxy variablet gory w tanha la boolean datwany
+  1 (=) dabney lanaw kawana watta assignment bkay nak comparasion  */
  System.out.println(" this is car ");
 
- System.out.print(" barham \n is the best programmer ");     // am \n wa dakat ka codey haman line outputy line jyawaz be
+ System.out.print(" barham \n is best programmer ");     // am \n wa dakat ka codey haman line outputy line jyawaz be
  
   System.out.println ("Barham " + "2026");
   System.out.println ("Barham" + " 2026");    // am 3 code haman outputyan haya 
