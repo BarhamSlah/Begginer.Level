@@ -11,3 +11,16 @@ public class Bit {
     return sum;
   }
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  public class Bit {
+
+  public static void main(String[] args) {
+    System.out.println( message("Hello Best Developer In The World"));
+
+  }
+
+  public static String message(String text){
+    
+    return text.toLowerCase() ;
+  }
+}      
