@@ -74,17 +74,16 @@ when you call method you use arguments that you write (value or variable)
    /* labar away lera calculateScore hichy le nakrawawatta la 3 shtaka boya ignore dakret */
   
   /* agar darey chon bzanm method ba ch declare bkam awa agar :
-watta away la pash return dainwsy kam lamanay xwarawaya
+ away la pash return dainwsy kam lamanay xwarawaya
 
-1 - return nabw watta tanha nwsin bw be return awa void 
 
-2 - return habw watta tanha nwsin bw ba return awa String
+1 - return habw watta tanha nwsin bw ba return awa String
 
-3 - agar krdary birkary bw awa ba zhmaray tawaw int ba point double 
+2 - agar krdary birkary bw awa ba zhmaray tawaw int ba point double 
 
-4 - agar false w true bw awa boolean 
+3 - agar false w true bw awa boolean 
 
-5 - agar bo nmnwa nawy variable bw awa bzana aw variablea ba chy declare krawa */
+4 - agar bo nmnwa nawy variable bw awa bzana aw variablea ba chy declare krawa */
 
  calculateStore(true, 10_000, 8, 200);
  
