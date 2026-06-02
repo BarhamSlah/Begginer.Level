@@ -76,14 +76,10 @@ when you call method you use arguments that you write (value or variable)
   /* agar darey chon bzanm method ba ch declare bkam awa agar :
  away la pash return dainwsy kam lamanay xwarawaya
 
+bazana away ka return dakay ba ch declare kraya dabet methodish ba haman sht declare bkait ballam bo awanay ka zhmara xazn dakan dakret 
 
-1 - return habw watta tanha nwsin bw ba return awa String
+rangey datatypey method zyatr bet la datatypey away ka return dakret
 
-2 - agar krdary birkary bw awa ba zhmaray tawaw int ba point double 
-
-3 - agar false w true bw awa boolean 
-
-4 - agar bo nmnwa nawy variable bw awa bzana aw variablea ba chy declare krawa */
 
  calculateStore(true, 10_000, 8, 200);
  
@@ -161,15 +157,29 @@ if (age > 18) return;  // datwany bam sheway bnwsy agar tanha yak line codet hab
  lera daprsy aw codea chya ? 
 agar age la +18 bw awa condition = true w dacheta sar return boya codeanaknytr ingnore dakret  
 ballam agar -18 bw awa condition = false boya nacheta sar return w dacheta sar awanytr */
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-public static void ageOfClient (int age) {  // la katy call method xot valuey age dadaney 
-boolean result = false;  // agar awya ba true daney aw kat hamw katek true dabet
-if (age > 18 ) {
- result = true;
-}
-return result;
-}
+public class Bit {
 
+    public static void main(String[] args) {
+
+        ageOfClient(20);
+
+    }
+
+    public static boolean ageOfClient(int age) {
+        boolean result = false;
+        if (age > 18) {
+            result = true;
+            System.out.println(result);
+        }
+
+        return result;
+
+    }
+}
+  
+========================================================================================================
 boolean result = true;
 if (age > 18) {
  return false;
