@@ -163,30 +163,19 @@ public class Bit {
 
     public static void main(String[] args) {
 
-        ageOfClient(20);
+        ageOfClient(19);
 
     }
 
-    public static boolean ageOfClient(int age) {
-        boolean result = false;
-        if (age > 18) {
-            result = true;
-            System.out.println(result);
+    public static int ageOfClient(int age){
+        boolean clientAge = false;
+
+        if(age >= 18){
+            clientAge = true;
+            System.out.println("You Have legall age to participate of election");
+        }else {
+            System.out.println("You Have Not legall age to participate of election");
         }
-
-        return result;
-
-    }
-}
-  
-========================================================================================================
-boolean result = true;
-if (age > 18) {
- return false;
-}
-return result;
-}
-
-// hardkw tawawa boya kama bnwsy tawawa
+      return age;
     }
 }
