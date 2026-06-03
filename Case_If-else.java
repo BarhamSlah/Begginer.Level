@@ -107,3 +107,5 @@ String day = "one";
                 System.out.println("your number is not 1 , 2 , 3 , 4 , or 5");
 
         }
+   // agar la condition expression habw awa if-statement bakar bena ballam agar la condition tanha yak value habw awa switch-case bakar bena
+    
