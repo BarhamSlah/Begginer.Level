@@ -68,8 +68,7 @@ boolean isStudent = false;
  } else {
   System.out.println(" this is not the student ");
  }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
-
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 String day = "one";
 
  switch (day) {
@@ -83,32 +82,23 @@ String day = "one";
    default "one":
      System.out.println("Monday");
      break;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        int yourValue = 3;
 
+        switch (yourValue) {
 
-
-        int myValue = 10;
-
-        switch (myValue) {
-
-            case 10:
-                System.out.println("Your Value Is Ten");
+            case 1:
+                System.out.println("your number is one");
                 break;
-
-            case 20:
-                System.out.println("Your Value Is Twenty");
+            case 2:
+                System.out.println("your number is two");
                 break;
-
-            case 30:
-                System.out.println("Your Value Is Thirty");
+            case 3 : case 4 : case 5:
+                System.out.println("your number is three , four , or five");
+                System.out.println("your number is absoultely  = " + yourValue);
                 break;
 
             default:
-                System.out.println("Your Value Is Not Ten or Twenty or Thirty");
+                System.out.println("your number is not 1 , 2 , 3 , 4 , or 5");
 
-
-          /*
-          
-
-          
-         */
         }
