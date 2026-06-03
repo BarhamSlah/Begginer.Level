@@ -69,6 +69,11 @@ boolean isStudent = false;
   System.out.println(" this is not the student ");
  }    //la rstay (if w else ) agar if true bw awa bas rstay if execute dabet ballam agar rstay if false bw awa rstay else execute dabet 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+aagr break nanwsy awa casey dway xoy run dabet 
+
+aw variabley ka dakreta naw switch dabet tanha yakak law shtaan bet (byte , short , int , String , char , enum) 
+*/
 String day = "one";
 
  switch (day) {
