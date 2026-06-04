@@ -74,19 +74,7 @@ aagr break nanwsy awa casey dway xoy run dabet
 
 aw variabley ka dakreta naw switch dabet tanha yakak law shtaan bet (byte , short , int , String , char , enum) 
 */
-String day = "one";
 
- switch (day) {
-
-   case "one":
-     System.out.println("Saturday");
-     break;
-   case "one":
-     System.out.println("sunday");
-     break;
-   default "one":
-     System.out.println("Monday");
-     break;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         int yourValue = 3;              
 
@@ -121,3 +109,29 @@ String day = "one";
         }
         default -> System.out.println("Your number is not 1 , 2 , 3 , 4 , or 5 ");
     }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+public class Bit {
+
+    public static void main(String[] args) {
+
+        System.out.println( months("jun") + " in 2026");
+
+    }
+
+     public static String months(String  nameOfMonth){
+
+      return  switch (nameOfMonth){
+
+            case "jan" , "feb" , "mar" ->  "fisrt quater";
+
+            case "apr" , "may" , "jun" ->  "second quater";
+
+            case "jul" , "aug" , "sep" ->  "third quater";
+
+          default -> "fourth quater";
+
+        };
+
+     }
+
+}
