@@ -88,7 +88,7 @@ String day = "one";
      System.out.println("Monday");
      break;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        int yourValue = 3;
+        int yourValue = 3;              
 
         switch (yourValue) {
 
@@ -108,4 +108,16 @@ String day = "one";
 
         }
    // agar la condition expression habw awa if-statement bakar bena ballam agar la condition tanha yak value habw awa switch-case bakar bena
-    
+   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+   int switchValue = 4;
+
+    switch (switchValue){
+
+        case 1 -> System.out.println("Your number is one");
+        case 2 -> System.out.println("Your number is two");
+        case 3 ,  4 ,  5 -> {
+            System.out.println("Your number is three , four , or five");
+            System.out.println("Your number is exactly = " + switchValue );
+        }
+        default -> System.out.println("Your number is not 1 , 2 , 3 , 4 , or 5 ");
+    }
