@@ -122,7 +122,7 @@ public class Bit {
 
       return  switch (nameOfMonth){
 
-            case "jan" , "feb" , "mar" ->  "fisrt quater";
+            case "jan" , "feb" , "mar" -> { yield "fisrt quater"; }
 
             case "apr" , "may" , "jun" ->  "second quater";
 
@@ -135,3 +135,4 @@ public class Bit {
      }
 
 }
+// 
