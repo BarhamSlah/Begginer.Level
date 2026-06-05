@@ -17,6 +17,7 @@ public class Bit {
     }
 
 
+
     public static void secondMethod(int heightInFeet, int reaminHeightInInche) {
 
         double feet = 5;
