@@ -218,8 +218,31 @@ public static String challenge(){
     };
 return a;
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// give a number to the argument then it will give a  day 
+public class Barham {
+  public static void main(String[] args) {
 
+      printDayOfWeek(7);
 
+    }
+
+    public static void printDayOfWeek(int day) {
+
+    String dayOfWeek = switch (day) {
+
+        case 0 -> "sunday";
+        case 1 -> "monday";
+        case 2 -> "tuesday";
+        case 3 -> "wednesday";
+        case 4 -> "thursday";
+        case 5 -> "friday";
+        case 6 -> "saturday";
+        default -> "Invalid day";
+      };
+        System.out.println(dayOfWeek);
+    }
+}
 
 
 
