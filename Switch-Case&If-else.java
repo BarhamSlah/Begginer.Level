@@ -122,7 +122,9 @@ public class Bit {
 
       return  switch (nameOfMonth){
 
-            case "jan" , "feb" , "mar" -> { yield "fisrt quater"; }
+            case "jan" , "feb" , "mar" -> { yield
+             "fisrt quater";
+              ]                                                       
 
             case "apr" , "may" , "jun" ->  "second quater";
 
@@ -136,11 +138,86 @@ public class Bit {
 
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// dabet la swtch-case enhanced switch() {}; dabet aw  semicolomn labir nakay 
+
 /* yield pewista lanaw code block bnwsret ballam agar yak value bw pewist ba yield naka 
 yield reeeekkkk wakw return waya ballam yield keywordy taybata lanaw switch-case 
-katek switch 
-*/
+katek la switch-case yield bakar deny awa dabet yakek lam 2 shta bkay :
 
+
+1 - la pesh switch return bnwsy aw kat pewist nakat la kotayi return staement bnwsy 
+2 - yan switch (variable) lanaw variable dabney dwatr variableaka return bkay la kotayi 
+*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+public static void main(String[] args) {
+
+    System.out.println(challenge());
+
+}
+public static String challenge(){
+
+    char nameOfClass = 'S';
+
+   return switch (nameOfClass){
+
+        case 'A' -> {
+            System.out.println("perfect");
+            yield "1";
+        }
+        case 'B' -> {
+            System.out.println("good");
+            yield "2";
+        }
+
+        case 'C' -> {
+            System.out.println("bad");
+            yield "3";
+        }
+
+       default -> {
+           System.out.println("your input is invalid");
+           yield "4";
+       }
+
+    };
+
+}
+
+// awa lagal away sara xoy haman shta tanha la 2 shwewazaka farqy haya 
+
+public static void main(String[] args) {
+
+    System.out.println(challenge());
+
+}
+public static String challenge(){
+
+    char nameOfClass = 'S';
+
+   String a = switch (nameOfClass){
+
+        case 'A' -> {
+            System.out.println("perfect");
+            yield "1";
+        }
+        case 'B' -> {
+            System.out.println("good");
+            yield "2";
+        }
+
+        case 'C' -> {
+            System.out.println("bad");
+            yield "3";
+        }
+
+       default -> {
+           System.out.println("your input is invalid");
+           yield "4";
+       }
+
+    };
+return a;
+}
 
 
 
