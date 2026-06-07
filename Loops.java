@@ -20,7 +20,25 @@ public class Bit {
 
             System.out.println(i);
         }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// awa pet dalet la bry awanda paraya awanda swd wardagiret
+        public class Barham {
+  public static void main(String[] args) {
 
+      calculateInterest(200);
+  }
+
+      public static void calculateInterest(double constant) {
+
+          for (double rate =  7.5 ; rate <= 10.0 ; rate += 0.25 ){
+              double division = (rate/ 100) * constant;
+              System.out.println(rate + " % receive for each " + constant + "$ it means " + division + "$");
+
+          }
+      }
+
+    }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
             int b = 25;
             while (b <= 35) {
                 System.out.println(b);
