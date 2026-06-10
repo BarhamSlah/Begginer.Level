@@ -1,13 +1,13 @@
 public static void main(String[] args) {
 
-    challenge();
+    System.out.println(challenge());
 
 }
 public static String challenge(){
 
-    char nameOfClass = 'A';
+    char nameOfClass = 'S';
 
-    return switch (nameOfClass){
+   String a = switch (nameOfClass){
 
         case 'A' -> {
             System.out.println("perfect");
@@ -23,11 +23,11 @@ public static String challenge(){
             yield "3";
         }
 
-        default -> {
-            System.out.println("your input is invalid");
-            yield "4";
-        }
+       default -> {
+           System.out.println("your input is invalid");
+           yield "4";
+       }
 
     };
-
+return a;
 }
