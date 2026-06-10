@@ -1,0 +1,6 @@
+Name: Barham
+Age: 18
+Height: 174.0
+Color: pink
+Job: student
+Letter: T
