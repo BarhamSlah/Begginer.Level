@@ -1,7 +1,7 @@
-/* Here , we learn that 2 notice that refer difference between (Random & Scanner)
+/*    Here , we learn that 2 notice that refer difference between (Random & Scanner)
 1- In Random you don't write (System.in)
-2- At last you don't write random.close();
-*/
+2- At last you don't write random.close();    */
+
 import java.util.Random;
 
 public class Game{
@@ -31,7 +31,8 @@ public void main(String[] args) {
     String stringValue = random.toString();
     System.out.println("String " + stringValue);
 
-
+// for each (Byte - Short - Char) we should use casting
+    
    short myShorvaluet = (short) random.nextInt();
    System.out.println("Short: " + myShortValue);
     
