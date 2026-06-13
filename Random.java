@@ -30,9 +30,16 @@ public void main(String[] args) {
 
     String stringValue = random.toString();
     System.out.println("String " + stringValue);
+
+
+   short myShorvaluet = (short) random.nextInt();
+   System.out.println("Short: " + myShortValue);
     
-// short w byte w char
+   char myCharvalue = (char) (random.nextInt(26) + 'A');
+   System.out.println("Char: " + myCharValue);
+    
+   byte myByteValue = (byte) random.nextInt ();
+   System.out.println("Byte: " + myByteValue); 
 
 }
-
 }
