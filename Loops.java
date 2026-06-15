@@ -47,6 +47,5 @@ public class Bit {
                 b++;
             }
 
-
         }
     }
