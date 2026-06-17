@@ -10,3 +10,9 @@
    System.out.printf("Your height is %.2f\n " , point ); 
    /*  aw .2 wadaka la output tanha 2 zhmaray dway point pshan bdret */
    System.out.printf("Are you student ? %b\n " , isTrue);
+
+// (INTEGER) .X awa nya chwnka point nya & 0X zhmaraka dakata X zhmara
+/* 
+(DECIMAL) .X awanda pointa la dway 0 nishan dada & 0.X5 watta 5 zhmara dway point pshan bda w awa X chand 
+ zhmara bet ba har hamwy awanda bet ba . awa awish ab 1 hisaba   
+ */
