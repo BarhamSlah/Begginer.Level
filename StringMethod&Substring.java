@@ -1,4 +1,3 @@
-
 String name = "Password";
 
 int length = name.length();                       // bo zaniny drezhy
@@ -27,5 +26,5 @@ name = name.replace("o", "a");
             System.out.println("Your name DOESN'T contain any spaces");
         }
 
-    }
-}
+////////////////////////////////////////////////////////////////////////////////////// 
+
