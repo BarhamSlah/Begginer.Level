@@ -14,7 +14,7 @@ public void main(String[] args) {
     System.out.println(randomNumber);
 
     int intValue = random.nextInt();
-    System.out.println("int " +  intValue);
+    System.out.println("int: " +  intValue);
 
     boolean boolValue = random.nextBoolean();
     System.out.println("Boolean: " + boolValue);
@@ -33,7 +33,7 @@ public void main(String[] args) {
 
 // for each (Byte - Short - Char) we should use casting
     
-   short myShorvaluet = (short) random.nextInt();
+   short myShorvalue = (short) random.nextInt();
    System.out.println("Short: " + myShortValue);
     
    char myCharvalue = (char) (random.nextInt(26) + 'A');
