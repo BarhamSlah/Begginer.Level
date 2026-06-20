@@ -13,6 +13,9 @@ public void main(String[] args) {
     int randomNumber = random.nextInt(1, 10);  // from 1 to 9
     System.out.println(randomNumber);
 
+    int randomNumber = random.nextInt(10);  // from 0 to 9
+    System.out.println(randomNumber);
+
     int intValue = random.nextInt();
     System.out.println("int: " +  intValue);
 
@@ -28,15 +31,15 @@ public void main(String[] args) {
     long longValue = random.nextLong();
     System.out.println("Long: " + longValue);
 
-    String stringValue = random.toString();
+    String stringValue = random.toString();   // that is toString not String
     System.out.println("String " + stringValue);
 
-// for each (Byte - Short - Char) we should use casting
+    // for each (Byte - Short - Char) we should use casting
     
    short myShorvalue = (short) random.nextInt();
    System.out.println("Short: " + myShortValue);
     
-   char myCharvalue = (char) (random.nextInt(26) + 'A');
+   char myCharvalue = (char) (random.nextInt(26) + 'A');   // 'A' wadakat la 26 zhmara bbeta 26 pit
    System.out.println("Char: " + myCharValue);
     
    byte myByteValue = (byte) random.nextInt ();
