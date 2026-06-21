@@ -26,5 +26,28 @@ name = name.replace("o", "a");
             System.out.println("Your name DOESN'T contain any spaces");
         }
 
-////////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////////  
+
+import java.util.Scanner;
+
+public class file {
+  public static void main(String[] args) {
+
+      Scanner scanner = new Scanner (System.in);
+
+      System.out.print("Enter Your Gmail : ");
+      String email = scanner.nextLine();
+
+      String username = email.substring(0 , email.indexOf("@"));    
+      String remain = email.substring(email.indexOf("@") + 1);
+
+      System.out.println("username = " + username );
+      System.out.println("remain of the gmail = " + remain);
+
+      scanner.close();
+  }
+}
+
+
+
 
