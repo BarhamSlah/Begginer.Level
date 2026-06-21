@@ -38,8 +38,8 @@ public class file {
       System.out.print("Enter Your Gmail : ");
       String email = scanner.nextLine();
 
-      String username = email.substring(0 , email.indexOf("@"));    
-      String remain = email.substring(email.indexOf("@") + 1);
+      String username = email.substring(0 , email.indexOf("@"));       // from 0 to before @
+      String remain = email.substring(email.indexOf("@"));             // from @ to last
 
       System.out.println("username = " + username );
       System.out.println("remain of the gmail = " + remain);
