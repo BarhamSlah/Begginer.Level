@@ -122,8 +122,7 @@ public class Bit {
 
       return  switch (nameOfMonth){
 
-            case "jan" , "feb" , "mar" -> { yield
-             "fisrt quater";
+            case "jan" , "feb" , "mar" -> { yield "fisrt quater" ; } 
                                                                  
             case "apr" , "may" , "jun" ->  "second quater";
 
@@ -147,6 +146,7 @@ katek la switch-case yield bakar deny awa dabet yakek lam 2 shta bkay :
 1 - la pesh switch return bnwsy aw kat pewist nakat la kotayi return staement bnwsy 
 2 - yan switch (variable) lanaw variable dabney dwatr variableaka return bkay la kotayi 
 */
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 public static void main(String[] args) {
 
