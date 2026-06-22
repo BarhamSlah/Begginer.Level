@@ -124,8 +124,7 @@ public class Bit {
 
             case "jan" , "feb" , "mar" -> { yield
              "fisrt quater";
-              ]                                                       
-
+                                                                 
             case "apr" , "may" , "jun" ->  "second quater";
 
             case "jul" , "aug" , "sep" ->  "third quater";
@@ -243,6 +242,3 @@ public class Barham {
         System.out.println(dayOfWeek);
     }
 }
-
-
-
