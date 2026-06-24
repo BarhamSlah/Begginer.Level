@@ -50,6 +50,8 @@ public class Bit {
         }
     }
 ///////////////////////////////////////////////////////////////////////////////////////////////
+// ragrtny barnama bo mawayak 
+
 import java.util.Scanner;
 
 public class GuessNumber {
@@ -69,3 +71,26 @@ public class GuessNumber {
     }
 }
 //////////////////////////////////////////////////////////////////////////
+// basy har yaka la (CONTINUE & BREAK)
+
+ for(int i = 1; i <= 10 ; i++){
+           System.out.println(i);
+
+           if(i == 5){
+              break;
+           }
+       }
+////////////////////
+    for(int i = 1; i <= 10 ; i++){
+
+           if(i == 5) {
+               continue;
+           }
+           System.out.println(i);
+
+       }
+    }
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+
