@@ -12,6 +12,8 @@ the disadvantage with copying and pasting code is we are duplicating code that m
 /* Methods:take the code block to the next level and effectively allow us to reuse that code in many 
 places with the code written in just a single place so we type the code once and reuse it many time
 
+the name of method should refer what the method do 
+
 swdakany method : 1- reduce duplication code 
 2- datwane chand anjameky jyawazt bdate ba pey aw argumentay pey daday 
 
@@ -28,6 +30,8 @@ normal to delete the method
 when you make method you use parameter that you write (datatype + varibale)
 
 when you call method you use arguments that you write (value or variable) 
+
+the name of variable in argument and parameter is totally normal if it is different
 
  you should be make a ( Parameter & Arguments ) , when you delete the variables  
 */
