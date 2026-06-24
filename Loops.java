@@ -49,3 +49,23 @@ public class Bit {
 
         }
     }
+///////////////////////////////////////////////////////////////////////////////////////////////
+import java.util.Scanner;
+
+public class GuessNumber {
+    public static void main(String[] args) throws InterruptedException {
+        // marja awa bnwsit agar wistt bo mawayak program rabgry 
+
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.print("Do you wanna countdown from what number ? ");
+        int yourNumber = scanner.nextInt();
+
+        for(int i = 1 ; i <= yourNumber ; --yourNumber){
+            System.out.println(yourNumber);
+            Thread.sleep(1000);   // aw zhmaraya hamisha (ms) a.
+        }
+        System.out.println("HBD 🎂🎂🎂🎂🎂🎂");
+    }
+}
+//////////////////////////////////////////////////////////////////////////
