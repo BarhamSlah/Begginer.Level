@@ -292,6 +292,11 @@ LOCAL: 3- TANHA LAW METHODAY DECLARE KRAWA DABINRE
 CLASS: 4- DATWANY TANHA DECLARE BKAY VALUEY PE NADAY  
 LOCAL: 4- MARJA VALUEY PE BDAY
 
+(byte - short - int - long) = 0
+(float - double) =  0.0
+boolean = false
+String = null
+char = give you a empty square
 
  */ 
 
