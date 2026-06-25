@@ -286,12 +286,32 @@ LOCAL: 1- PEWISTY BA (STATIC) NYA
 CLASS: 2- BA KOTAYI HATNY METHOD DELETE DABET
 LOCAL: 2- TA BARNAMAKA DANAXRET DELETE NABET
 
-CLASS: 3- DATWANY TANHA DECLARE BKAY VALUEY PE NADAY  
-LOCAL: 3- MARJA VALUEY PE BDAY 
+CLASS: 3- HAMW METHODAKAN DAIBINN
+LOCAL: 3- TANHA LAW METHODAY DECLARE KRAWA DABINRE
 
-CLASS: 4- HAMW METHODAKAN DAIBINN
-LOCAL: 4- TANHA LAW METHODAY DECLARE KRAWA DABINRE
- 
+CLASS: 4- DATWANY TANHA DECLARE BKAY VALUEY PE NADAY  
+LOCAL: 4- MARJA VALUEY PE BDAY
+
+
  */ 
+
+  public class GuessNumber {
+
+    static int x = 2; //CLASS no usages
+
+    public static void main(String[] args) {
+
+        int x = 1; //LOCAL
+
+        System.out.println(x);   // compiler sarata x ba 2 dadane pashan katek deta naw aw methoda x dabeta 1
+
+        doSomething();
+    }
+
+    static void doSomething() {
+
+        System.out.println(x); // lera x ba 2 hisaba chwnka away naw methody sarawa tanha bo naw methody xoiti 
+    }
+}
 
   
