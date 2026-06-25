@@ -25,7 +25,6 @@ System.out.println(" \"hello \" world ");     // the output is " hello " world
  nabet nawy datatype la variable bnein
  */
    
-
   /*
   non primivate datatype ( Reference types ) : aw jora datatypenan ka la layan programmar dadanre,
   qabarayan dyari krawe nya
@@ -270,19 +269,29 @@ int A = 4;
  B =(int) (B - 2.5);    // agar aw kawana bakar naheny awa aw castinga tanha bo B dabet nak har hamwy 
  System.out.println(B);
 
-  /*
-
+ /*
 \"  print double quote
 \'  print single quote
 \\  print backslash
 \t  make a space as much as tab
 \r  make the cursor go to the beginning     System.out.println(" ABC \r  D   ")  the ouput is D
-
-
-
-
-
-  */
+ */
   
-  }
-}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* THERE ARE A DIFFERENT BETWEEN LOCAL VARIABLE AND CLASS VARIABLE 
+
+CLASS: 1- PEWISTY BA (STATIC) HAYA 
+LOCAL: 1- PEWISTY BA (STATIC) NYA
+
+CLASS: 2- BA KOTAYI HATNY METHOD DELETE DABET
+LOCAL: 2- TA BARNAMAKA DANAXRET DELETE NABET
+
+CLASS: 3- DATWANY TANHA DECLARE BKAY VALUEY PE NADAY  
+LOCAL: 3- MARJA VALUEY PE BDAY 
+
+CLASS: 4- HAMW METHODAKAN DAIBINN
+LOCAL: 4- TANHA LAW METHODAY DECLARE KRAWA DABINRE
+ 
+ */ 
+
+  
