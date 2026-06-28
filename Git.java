@@ -16,6 +16,25 @@ git clone (away datawe copy bkay)   // bo copy krdn
 
 start nawyfile.txt  / java / jpg  // bo krdnway file
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+
+1- cd nameoffile  // dachya naw aw filey ka datawe
+  
+2- git clone (away ka datawe copy bkay)   // aw repository ka datawe copy bkay
+
+3- bro la editorek bkawa (agar pesh away dast kary bkay git status bkay pet dalle )
+
+4- dastkary bka  (pash awya dast karyt krd git status bka pet dalle )
+
+5- git add nawyfile
+
+6- git commit -m "lera marja shtek bnwsy" 
+
+7- git push
+
+/*
+agar repoy xot nabet dabet wakw Collaborator zyad krbit agar na natwaany push bkait
+*/ 
   
 
   
