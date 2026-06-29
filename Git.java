@@ -27,7 +27,7 @@ start nawyfile.txt  / java / jpg  // bo krdnway file
 
 4- dastkary bka  (pash awya dast karyt krd git status bka pet dalle )
 
-5- git add nawyfile // "nameoffile" is normal
+5-git add . / git add nawyfile // "nameoffile" is normal
 
 6- git commit -m "lera marja shtek bnwsy" 
 
@@ -46,7 +46,7 @@ agar repoy xot nabet dabet wakw Collaborator zyad krbit agar na natwaany push bk
   
 3- dastkary bka (git starus bka pet dalle goran kary krawa ya nan )
 
-4- git add nameoffile  // "nameoffile" is normal
+4-  git add . / git add nameoffile  // "nameoffile" is normal
 
 5- git commit -m "marja shtek bnwsy" 
 
