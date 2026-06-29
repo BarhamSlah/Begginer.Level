@@ -40,6 +40,16 @@ agar repoy xot nabet dabet wakw Collaborator zyad krbit agar na natwaany push bk
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // THIS IS WHEN YOU ARE NOT COPY THE REPO
 
+1- cd nameoffolder
+
+2- bro la editorek bkawa (git starus bka pet dalle goran kary krawa ya nan ) 
   
-  
-  
+3- dastkary bka (git starus bka pet dalle goran kary krawa ya nan )
+
+4- git add nameoffile
+
+5- git commit -m "marja shtek bnwsy" 
+
+6- git pull origin main --rebase
+
+7- git push -u origin main 
