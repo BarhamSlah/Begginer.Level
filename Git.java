@@ -17,7 +17,8 @@ git clone (away datawe copy bkay)   // bo copy krdn
 start nawyfile.txt  / java / jpg  // bo krdnway file
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
-
+ //THIS IS WHEN YOU ARE COPY THE REPO  
+  
 1- cd nameoffile  // dachya naw aw filey ka datawe
   
 2- git clone (away ka datawe copy bkay)   // aw repository ka datawe copy bkay
@@ -35,7 +36,10 @@ start nawyfile.txt  / java / jpg  // bo krdnway file
 /*
 agar repoy xot nabet dabet wakw Collaborator zyad krbit agar na natwaany push bkait
 */ 
-  
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// THIS IS WHEN YOU ARE NOT COPY THE REPO
+
+  
   
   
