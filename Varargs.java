@@ -1,3 +1,5 @@
+// Varargs is used instead of methoo overloaded
+
 public class Varargs {
     public static void main(String[] args) {
 
@@ -5,7 +7,7 @@ public class Varargs {
 
     }
 
-        public static int sum(int... numbers) {
+        public static int sum(int... numbers) {  // you can write argument as you like from 0 to infinity
 
             int result = 0;
 
