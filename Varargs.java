@@ -21,6 +21,31 @@ public class Varargs {
         }
 
     }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+public class Bit {
+    public static void main(String[] args) {
+
+        System.out.println(average(23,44,4,76));
+
+    }
+
+    public static int average (int ...numbers){
+       int result = 0;
+       int average = 0;
+
+        for (int sum : numbers){
+
+        result += sum;
+
+         average = result / numbers.length;
+
+        }
+        return average;
+    }
+
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 
