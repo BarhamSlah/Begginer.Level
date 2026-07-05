@@ -1,4 +1,4 @@
-pwd // pet dalle al kwey 
+pwd // pet dalle la kwey 
 
 ls  // law shenay ka leyma chy haya
 
@@ -61,4 +61,12 @@ git config --global core.autocrlf true  // write it once , Don't let make confus
 git config -help  // when you don't know how it work 
 
 git config -h    //  when you know about it , but forget how to write
+
+git init // awa dakay dway away lanaw foldery 
+
+1- normal folder convert to git repository
+2- create a hidden folder by name .git and store all change 
+3- ready to receive command like (git add - git commit ..etc)
+4- ready to connect external server like (github) 
+ 
 
