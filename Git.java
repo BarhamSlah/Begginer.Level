@@ -78,3 +78,20 @@ mv oldName Newname   // this command will rename file if there is a space you ca
  1- aw file & foldery teda dadaney ka datawe ignore bkret
  2- sensetive & large file w (.idea) awa rek xstny code w background w font w size awanaya
  3- bo secuirity w swk krdny project
+
+///////////////////////////////////////////////////////////////
+
+HERE I WILL TALK ABOUT GITIGNORE
+
+# بۆ سڕینەوەی فایلی کلیلە نهێنییەکان لە گیتھەب
+git rm --cached .env
+
+# بۆ سڕینەوەی فۆڵدەری بەرهەمی پڕۆژەکە لە گیتھەب
+git rm -r --cached target/
+
+# Intellij بۆ ڕێگریکردن لە ناردنی ڕێکخستنەکانی ناوخۆی
+git rm -r --cached .idea/
+
+git commit -m "Remove ignored files from github"
+
+git push origin main 
