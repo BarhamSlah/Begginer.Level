@@ -46,10 +46,19 @@ agar repoy xot nabet dabet wakw Collaborator zyad krbit agar na natwaany push bk
   
 3- dastkary bka (git starus bka pet dalle goran kary krawa ya nan )
 
-4-  git add . / git add nameoffile  // "nameoffile" is normal
+4- git add . / git add nameoffile  // "nameoffile" is normal
 
 5- git commit -m "marja shtek bnwsy" 
 
 6- git pull origin main --rebase
 
 7- git push -u origin main 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+git config --global core.autocrlf true  // write it once , Don't let make confuse when many developers working on different OS 
+
+git config -help  // when you don't know how it work 
+
+git config -h    //  when you know about it , but forget how to write
+
