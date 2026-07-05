@@ -73,4 +73,8 @@ rm nameOffile  // this commnad will delete file
 
 mv oldName Newname   // this command will rename file if there is a space you can use ""
 
+.gitignore // aw filea 3 swdy haya 
  
+ 1- aw file & foldery teda dadaney ka datawe ignore bkret
+ 2- sensetive & large file w (.idea) awa rek xstny code w background w font w size awanaya
+ 3- bo secuirity w swk krdny project
