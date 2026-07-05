@@ -69,4 +69,8 @@ git init // awa dakay dway away lanaw foldery
 3- ready to receive command like (git add - git commit ..etc)
 4- ready to connect external server like (github) 
  
+rm nameOffile  // this commnad will delete file 
 
+mv oldName Newname   // this command will rename file if there is a space you can use ""
+
+ 
