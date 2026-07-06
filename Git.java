@@ -62,12 +62,16 @@ git config -help  // when you don't know how it work
 
 git config -h    //  when you know about it , but forget how to write
 
-git init // awa dakay dway away lanaw foldery 
+*****************************************************************************************************************
+ 
+ git init // awa dakay dway away lanaw foldery 
 
-1- normal folder convert to git repository
-2- create a hidden folder by name .git and store all change 
-3- ready to receive command like (git add - git commit ..etc)
-4- ready to connect external server like (github) 
+ 1- normal folder convert to git repository
+ 2- create a hidden folder by name .git and store all change 
+ 3- ready to receive command like (git add - git commit ..etc)
+ 4- ready to connect external server like (github) 
+
+ *****************************************************************************************************************
  
 rm nameOffile  // this commnad will delete file 
 
@@ -81,6 +85,15 @@ mv oldName Newname   // this command will rename file if there is a space you ca
 
 ///////////////////////////////////////////////////////////////
 
+rm nameOfFile  // 1- bo delete bakardet && 2- error dada agar halla habw
+ 
+/* 3- agar btawe prst pe bka la katy rash krdnawa dabet chomd 400 namefile yak awa bo file dakay hammisha prs daka  ballam 
+agar rm -i nameOfFile awa tanha aw kat  prst pe dakat */ 
+ 
+rm -rf nameOfFile   // 1- bo delete bakardet &&  2- prst pe nakat lakaty delete krdn && 3- error nada agar halla habet 
+ 
+rm -rf nameOfFile  // 
+ 
 HERE I WILL TALK ABOUT GITIGNORE
 
 # بۆ سڕینەوەی فایلی کلیلە نهێنییەکان لە گیتھەب
