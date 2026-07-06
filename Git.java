@@ -108,3 +108,29 @@ git rm -r --cached .idea/
 git commit -m "Remove ignored files from github"
 
 git push origin main 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ Running git log outputs four main details for every commit:
+
+1- Commit Hash: A unique ID for the save point.
+
+2- Author: Who made the change.
+
+3- Date: When it was made.
+
+4- Commit Message: Description of the change 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+ git show hash
+
+ The Commit Metadata: Author, date, and full commit message.
+
+ The Diff: The exact line-by-line changes made in that commit.
+
+ Lines starting with + (usually green) mean code was added.
+
+ Lines starting with - (usually red) mean code was deleted.
+
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////
