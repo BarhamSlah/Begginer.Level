@@ -1,4 +1,4 @@
-// Varargs is used instead of methoo overloaded
+// Varargs is used instead of method overloaded
 
 public class Varargs {
     public static void main(String[] args) {
@@ -46,7 +46,26 @@ public class Bit {
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// we don't need overload method when we use varargs
 
+void main(){
+
+    System.out.println(sum(1, 2, 3 ,4 ,5));
+}
+
+int sum(int... numbers) {
+// int... numbers is array
+// int... numbers = int[] array;
+
+    int sum = 0;
+
+    for (int number : numbers) {
+
+        sum += number;
+
+    }
+    return sum;
+}
 
 
 
