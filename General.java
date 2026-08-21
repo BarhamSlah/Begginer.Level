@@ -24,3 +24,11 @@ public static void main(String[] args) {
     Main app = new Main(); // Must create object first
     app.greet(); 
 }
+
+********************************************************************************************************************************
+    
+the continue statement : immediately skips the entire remaining code inside the loop and jumps directly back to the top
+of the while (running) loop to ask for input again.
+    
+******************************************************************************************************************************
+    
