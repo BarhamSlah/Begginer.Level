@@ -1,5 +1,5 @@
-public class Array {
-    public static void main(String[] args) {
+
+      void main(String[] args) {
 
          String name[] = {"Barham", "Rasha" , "Alla" , "Fatah"};
 
@@ -31,5 +31,9 @@ public class Array {
       /*  for (int number : numbers) {
             System.out.println(number); */   // lera agar natwist ba loop array kaml print bkay
 
+ // THERE IS ARRAY OF OBJECT
+
+
+
         }
-    }
+
