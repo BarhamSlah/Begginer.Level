@@ -1,3 +1,21 @@
+When you create a new array without filling in the values—like new int[5] or new String[5]—Java automatically fills it with default values for you:
+
+Numbers (int, double, etc.): Set to 0 (or 0.0 for decimals).
+
+Booleans (boolean): Set to false.
+
+Characters (char): Set to an empty character ('\u0000').
+
+Objects / Text (String, custom classes): Set to null (meaning empty or pointing to nothing).
+
+      
+int numbers[] = new int[4];                                         
+System.out.println(numbers[1]);
+
+String names[] = new String[4];
+System.out.println(names[1]);
+
+//////////////////////////////////////////////////////////////////////////////////////
 
       void main(String[] args) {
 
@@ -10,20 +28,8 @@
          int numOfFruits = name.length;  // get the length of the array
          System.out.println(numOfFruits);
 
-/////////////////////////////////////////////////////////////////////////////////////
-        
-        int numbers[] = new int[4];                                         
-        System.out.println(numbers[1]);
-
-        String names[] = new String[4];
-        System.out.println(names[1]);
-
-//  lera labar away tanha array man drwst krdya be away valuey bebday  boya valuekan ba default dadaneret 
-
-/*(byte w short w int w long = 0 ) w (double e flaot = 0.0) w
- (boolean = false) w (char = '\u0000') w (String = null) */
-
-//////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////        
+    
      /*   for(int i = 0 ; i < 4 ; i++){
             System.out.println(name[i]);
         }  */   // lera agar wistt ba loop array kaml print bkay
