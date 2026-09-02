@@ -32,3 +32,22 @@ void main(){
         System.out.println();
     }
 }
+
+////////////
+
+void main (){
+
+    Random random = new Random();
+
+  int[][] num = new int[2][3];
+
+  for (int i = 0; i < 2; i++){
+      for (int j = 0; j < 3; j++){
+          int randomNumber = random.nextInt(10);
+          num[i][j] = randomNumber;
+          IO.print(randomNumber );
+      }
+      IO.println();
+  }
+
+}
