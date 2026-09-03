@@ -1,3 +1,13 @@
+// Option 1: Specifies SIZE, Do not provide values immediately
+int[] numbers1 = new int[5];        
+// Memory created: [0, 0, 0, 0, 0]
+
+// Option 2: Specifies VALUES, Do provide values immediately
+int[] numbers2 = {0, 1, 2, 3, 4, 5}; 
+// Memory created: [0, 1, 2, 3, 4, 5]
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 When you create a new array without filling in the values—like new int[5] or new String[5]—Java automatically fills it with default values for you:
 
 Numbers (int, double, etc.): Set to 0 (or 0.0 for decimals).
