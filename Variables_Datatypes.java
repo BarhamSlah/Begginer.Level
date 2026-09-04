@@ -319,4 +319,13 @@ char = give you a empty square
     }
 }
 
-  
+  ////////////////////////////////////////////////////////////////////////////
+1- Use String Literals: String a = "Barham"; is memory-efficient because Java reuses existing strings from the String Constant Pool.
+
+2- Avoid Explicit Instantiation: String b = new String("Barham"); forces Java to create an unnecessary duplicate object in the General Heap.
+
+3- Compare Content: Always use a.equals(b) to compare text values. The == operator compares memory addresses, so a == b evaluates
+to false because they reside in different memory locations.
+
+4- Console Output: System.out.println() prints the character sequence ("Barham") for both because the String class overrides.
+toString() to return the actual text content rather than memory addresses.
