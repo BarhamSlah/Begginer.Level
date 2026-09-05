@@ -1,5 +1,22 @@
-public static Variables_Datatypes {
-public static void main (String [] args){
+WE HAVE 4 TYPES OF VARIABLES
+
+public class Bicycle {
+    // 1. Class Variable (Static Field): Shared across all instances
+    static final int NUM_GEARS = 6;
+
+    // 2. Instance Variable (Non-Static Field): Unique to each object
+    int currentSpeed;
+
+    // 3. Parameter: Receives data passed into the method
+    public void speedUp(int increment) {
+        
+        // 4. Local Variable: Temporary state inside the method
+        int newSpeed = currentSpeed + increment;
+        currentSpeed = newSpeed;
+    }
+}
+
+*******************************************************************************************************************************************
 
   System.out.println("barham"); /* har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
 ballam agar text nabw awa datwnay " nanwsy tanha shtaka bnwsy  */
