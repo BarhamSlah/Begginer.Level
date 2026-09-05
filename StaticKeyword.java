@@ -1,3 +1,12 @@
+when the variable is static the value of its share to all object 
+All objects created from that class share that exact same memory location
+
+
+when the method is static we don't need object to call method but it is normal if you create an object but not nessecery
+but if an method is not static you should create an object to call that method
+
+******************************************************************************************************************************************    
+
 void main(){
 
     Friend[] friends = {
