@@ -17,6 +17,27 @@ public class Bicycle {
 }
 
 *******************************************************************************************************************************************
+var data type only use to declare local variable not any types of variable and not use to declare method.
+
+var age = 25;      // Valid
+for (var i = 0; i < 10; i++) { ... } // Valid
+for (var item : list) { ... }       // Valid
+
+public class Example {
+    var name = "John"; // COMPILE ERROR: Reserved keyword 'var' cannot be used here
+}
+
+public var getAge() { // COMPILE ERROR
+    return 25;
+}
+
+public void setAge(var age) { // COMPILE ERROR
+    this.age = age;
+}
+
+public Example(var name) { ... } // COMPILE ERROR
+
+*******************************************************************************************************************************************    
 
   System.out.println("barham"); /* har shtek la newan double quote bnswy awa bot print dakat watta nisnaka pey dawte string literal
 ballam agar text nabw awa datwnay " nanwsy tanha shtaka bnwsy  */
