@@ -1,3 +1,6 @@
+If the operator calculates a value (+, -, *, /), it goes Left to Right.
+If the operator stores/assigns a value (=, +=, -=), it goes Right to Left.
+
 System.out.println(Math.PI);
 System.out.println(Math.E);
 
