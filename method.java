@@ -223,3 +223,23 @@ void print(int... a) { System.out.println("گۆڕاو"); }
 }
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void main(){
+
+  age(18);
+
+}
+
+public static void age(int number){
+
+ if(number <= 0){
+       IO.println("Invalid input");
+       return ;
+   } else if(number < 18){
+     IO.println("you are child");
+     return ;
+ }
+
+   IO.println("you are adult");
+}
+
+ "Stop this method now. Don't execute anything below me."
