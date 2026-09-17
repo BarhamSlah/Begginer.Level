@@ -1,6 +1,9 @@
 public static conditional {
 public static void main (String [] args) {
 
+(also called a compound statement) 
+A block is a group of statements surrounded by curly braces.
+ 
  // from now on intellij begin 
  /*
 bash nya la katy nwsyni Address w project space bakar bet labar bwny kesha w vairous la hande OS
