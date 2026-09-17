@@ -91,6 +91,14 @@ public class GuessNumber {
        }
     }
 }
+
+break; → Stops only the nearest loop.
+break outer; → Stops the outer loop, including its nested loops.
+continue; → Skips the current iteration of the nearest loop.
+continue outer; → Skips the current iteration of the outer loop, including its nested loops.
+break / continue → affect the nearest loop
+break outer / continue outer → affect the specific labeled outer loop
+
 ////////////////////////////////////////////////////////////////////////////////////
 
 public class Main {
